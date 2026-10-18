@@ -1,5 +1,6 @@
 const fs=require('node:fs'),path=require('node:path');
 const {ROOT}=require('./resource-helpers.cjs');
+const {validateClientAssets}=require('./validate-client-assets.cjs');
 function files(dir) {if(!fs.existsSync(dir))return[];return fs.readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?files(path.join(dir,entry.name)):[path.join(dir,entry.name)]);}
 let errors=[];
 const versions=process.argv[2]?[process.argv[2]]:['1.21.1','26.1.2'];
@@ -19,6 +20,7 @@ for(const version of versions) {
         }
     }
     const ownResearch=new Map([...jsons].filter(([file])=>file.includes('/thaumaturge/research_entry/')).map(([file,value])=>[file.replace(/^data\/([^/]+)\/thaumaturge\/research_entry\/(.*)\.json$/,'$1:$2'),value]));
+    errors.push(...validateClientAssets(resources,jsons,version).errors);
     const idPath=(id,type)=>{const separator=id.indexOf(':');return `data/${id.slice(0,separator)}/thaumaturge/${type}/${id.slice(separator+1)}.json`;};
     function registryRef(id,type,file) {
         if(typeof id!=='string'||!id.includes(':')) {errors.push(`${version} ${file}: invalid ${type} ID ${JSON.stringify(id)}`);return;}

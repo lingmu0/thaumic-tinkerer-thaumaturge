@@ -18,7 +18,7 @@ function lang(key,en,zh){languages.en_us[key]=en;languages.zh_cn[key]=zh;}
 function copy(relative,target){const dst=path.join(ROOT,'common/src/main/resources',target);fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(path.join(source,relative),dst);if(fs.existsSync(path.join(source,relative+'.mcmeta')))fs.copyFileSync(path.join(source,relative+'.mcmeta'),dst+'.mcmeta');}
 function itemModel(id,texture){copy(`textures/items/${texture}.png`,`${base}/textures/item/${id}.png`);write(`${base}/models/item/${id}.json`,{parent:'minecraft:item/generated',textures:{layer0:`${ns}:item/${id}`}});modern(id);}
 function modern(id){write(`${base}/items/${id}.json`,{model:{type:'minecraft:model',model:`${ns}:item/${id}`}},'neoforge-26.1.2/src/main/resources');}
-function block(id,texture,display){copy(`textures/${texture}.png`,`${base}/textures/block/${id}.png`);write(`${base}/models/block/${id}.json`,{parent:'minecraft:block/cube_all',textures:{all:`${ns}:block/${id}`}});write(`${base}/blockstates/${id}.json`,{variants:{'':{model:`${ns}:block/${id}`}}});write(`${base}/models/item/${id}.json`,{parent:`${ns}:block/${id}`});modern(id);write(`data/${ns}/loot_table/blocks/${id}.json`,{type:'minecraft:block',pools:[{rolls:1,entries:[{type:'minecraft:item',name:`${ns}:${id}`}],conditions:[{condition:'minecraft:survives_explosion'}]}]});lang(`block.${ns}.${id}`,display[0],display[1]);}
+function block(id,texture,display){write(`data/${ns}/loot_table/blocks/${id}.json`,{type:'minecraft:block',pools:[{rolls:1,entries:[{type:'minecraft:item',name:`${ns}:${id}`}],conditions:[{condition:'minecraft:survives_explosion'}]}]});lang(`block.${ns}.${id}`,display[0],display[1]);}
 const machines={
   repairer:['model/repairer','Thaumic Restorer','神秘修复台','TileRepairer'],
   funnel:['blocks/funnel0','Essentia Funnel','精华漏斗','TileFunnel'],
@@ -39,6 +39,7 @@ const machines={
   forcefield:['blocks/emptyTexture','Temporary Forcefield','临时力场','TileForcefield'],
 };
 for(const [id,[texture,en,zh,original]] of Object.entries(machines)){block(id,texture,[en,zh]);coverage[original]=`device/MachineBlockEntity.java (${id})`;}
+require('./generate-device-models.cjs').generateDeviceModels();
 write(`data/${ns}/tags/block/devices.json`,{replace:false,values:Object.keys(machines).filter(id=>id!=='forcefield').map(id=>`${ns}:${id}`)});
 // A forcefield is a temporary auxiliary block and drops nothing.
 write(`data/${ns}/loot_table/blocks/forcefield.json`,{type:'minecraft:block',pools:[]});

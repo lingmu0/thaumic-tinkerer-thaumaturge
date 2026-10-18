@@ -1,7 +1,25 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
       "model": "thaumictinkerer:block/aspect_analyzer"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/aspect_analyzer"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/aspect_analyzer"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/aspect_analyzer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/aspect_analyzer",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thaumictinkerer:block/aspect_analyzer",
+      "y": 90
     }
   }
 }

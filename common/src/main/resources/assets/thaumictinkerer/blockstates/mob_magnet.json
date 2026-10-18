@@ -1,6 +1,21 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
+      "model": "thaumictinkerer:block/mob_magnet"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/mob_magnet"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/mob_magnet"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/mob_magnet"
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/mob_magnet"
+    },
+    "facing=east": {
       "model": "thaumictinkerer:block/mob_magnet"
     }
   }

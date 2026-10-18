@@ -20,16 +20,20 @@ for (const [name, texture] of Object.entries(mappings)) {
     copy(`textures/items/${texture}.png`, `assets/thaumictinkerer/textures/item/${name}.png`);
     json(`assets/thaumictinkerer/models/item/${name}.json`, {parent: 'minecraft:item/generated', textures: {layer0: `thaumictinkerer:item/${name}`}});
 }
-for (const file of ['darkQuartz0', 'darkQuartz1', 'darkQuartz2', 'chiseledDarkQuartz0', 'chiseledDarkQuartz1', 'pillarDarkQuartz0', 'pillarDarkQuartz1']) {
-    copy(`textures/blocks/${file}.png`, `assets/thaumictinkerer/textures/block/${file}.png`);
+const quartzTextures={darkQuartz0:'dark_quartz_top',darkQuartz1:'dark_quartz_side',darkQuartz2:'dark_quartz_bottom',chiseledDarkQuartz0:'dark_quartz_chiseled_side',chiseledDarkQuartz1:'dark_quartz_chiseled_end',pillarDarkQuartz0:'dark_quartz_pillar_side',pillarDarkQuartz1:'dark_quartz_pillar_end'};
+for (const [file,name] of Object.entries(quartzTextures)) {
+    copy(`textures/blocks/${file}.png`, `assets/thaumictinkerer/textures/block/${name}.png`);
+    // Remove only these obsolete generated copies, so invalid uppercase paths cannot ship.
+    const obsolete=path.join(out,`assets/thaumictinkerer/textures/block/${file}.png`);
+    if(fs.existsSync(obsolete))fs.unlinkSync(obsolete);
 }
 const tex = name => `thaumictinkerer:block/${name}`;
 const base = 'assets/thaumictinkerer';
-const textures = {side: tex('darkQuartz1'), top: tex('darkQuartz0'), bottom: tex('darkQuartz2')};
+const textures = {side: tex('dark_quartz_side'), top: tex('dark_quartz_top'), bottom: tex('dark_quartz_bottom')};
 for (const [name, parent, material] of [
     ['dark_quartz_block', 'minecraft:block/cube_bottom_top', textures],
-    ['dark_quartz_chiseled', 'minecraft:block/cube_column', {side: tex('chiseledDarkQuartz0'), end: tex('chiseledDarkQuartz1')}],
-    ['dark_quartz_pillar', 'minecraft:block/cube_column', {side: tex('pillarDarkQuartz0'), end: tex('pillarDarkQuartz1')}],
+    ['dark_quartz_chiseled', 'minecraft:block/cube_column', {side: tex('dark_quartz_chiseled_side'), end: tex('dark_quartz_chiseled_end')}],
+    ['dark_quartz_pillar', 'minecraft:block/cube_column', {side: tex('dark_quartz_pillar_side'), end: tex('dark_quartz_pillar_end')}],
 ]) {
     json(`${base}/models/block/${name}.json`, {parent, textures: material});
     json(`${base}/blockstates/${name}.json`, {variants: {'': {model: `thaumictinkerer:block/${name}`}}});

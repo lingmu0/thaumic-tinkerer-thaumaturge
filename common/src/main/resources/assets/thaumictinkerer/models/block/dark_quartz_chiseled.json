@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "side": "thaumictinkerer:block/chiseledDarkQuartz0",
-    "end": "thaumictinkerer:block/chiseledDarkQuartz1"
+    "side": "thaumictinkerer:block/dark_quartz_chiseled_side",
+    "end": "thaumictinkerer:block/dark_quartz_chiseled_end"
   }
 }

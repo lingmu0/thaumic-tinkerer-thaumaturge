@@ -1,7 +1,25 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
       "model": "thaumictinkerer:block/animation_tablet"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/animation_tablet"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/animation_tablet"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/animation_tablet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/animation_tablet",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thaumictinkerer:block/animation_tablet",
+      "y": 90
     }
   }
 }

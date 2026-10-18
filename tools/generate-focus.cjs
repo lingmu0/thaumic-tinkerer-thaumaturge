@@ -50,6 +50,14 @@ for(const id of ['light_gas','shadow_gas','nitor_gas']){
  write(`${base}/models/block/${id}.json`,{textures:{particle:`${ns}:item/gaseous_light`},elements:[]});
  write(`${base}/blockstates/${id}.json`,{variants:{'':{model:`${ns}:block/${id}`}}});
 }
+for(const [id,en,zh]of [
+ ['light_gas','Illuminae Gas','光明气体'],
+ ['shadow_gas','Tenebrae Gas','暗影气体'],
+ ['nitor_gas','Temporary Nitor Light','临时闪耀光源'],
+]){
+ languages.en_us[`block.${ns}.${id}`]=en;
+ languages.zh_cn[`block.${ns}.${id}`]=zh;
+}
 function crucible(id,catalyst,cost){write(`data/${ns}/recipe/${id}.json`,{type:'thaumaturge:crucible',catalyst:ingredient(catalyst),aspects:aspects(cost),result:{id:`${ns}:${id}`},research:{entry:`${ns}:${id}`}});}
 function infusion(id,catalyst,components,cost,instability,gate=id){write(`data/${ns}/recipe/${id}.json`,{type:'thaumaturge:infusion',catalyst:ingredient(catalyst),components:components.map(ingredient),aspects:aspects(cost),instability,result:{id:`${ns}:${id}`},research:{entry:`${ns}:${gate}`}});}
 function arcane(id,pattern,key,cost){

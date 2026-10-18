@@ -48,7 +48,7 @@ for(const id of ['warp_gate','bedrock_portal']){
     write(`assets/thaumictinkerer/items/${id}.json`,{model:{type:'minecraft:model',model:T+'item/'+id}},'neoforge-26.1.2/src/main/resources');
     catalog.items.push(id);
 }
-write('assets/thaumictinkerer/models/block/kami_light.json',{elements:[]});
+write('assets/thaumictinkerer/models/block/kami_light.json',{textures:{particle:'minecraft:block/glowstone'},elements:[]});
 write('assets/thaumictinkerer/blockstates/kami_light.json',{variants:{'':{model:T+'block/kami_light'}}});
 write('data/thaumictinkerer/loot_table/blocks/warp_gate.json',{type:'minecraft:block',pools:[{rolls:1,entries:[{type:'minecraft:item',name:T+'warp_gate'}],conditions:[{condition:'minecraft:survives_explosion'}]}]});
 function shaped(id,pattern,key,cost,research=id,count=1){write(`data/thaumictinkerer/recipe/${id}.json`,{type:G+'arcane_workbench_shaped',pattern,key:Object.fromEntries(Object.entries(key).map(([k,v])=>[k,ingredient(v)])),crystals:aspects(cost).map(a=>({...a,amount:1})),vis:Math.max(...Object.values(cost)),result:{id:T+id,count},research:{entry:T+research}});catalog.recipes.push(id);}
@@ -123,6 +123,7 @@ catalog.curios={necklace:[T+'cat_amulet'],belt:[T+'ichor_pouch'],ring:[T+'block_
 for(const [lang,d]of Object.entries(catalog.languages)){
     Object.assign(d,{
         'block.thaumictinkerer.warp_gate':lang==='zh_cn'?'天体网关':'Celestial Gateway','block.thaumictinkerer.bedrock_portal':lang==='zh_cn'?'基岩传送门':'Bedrock Portal',
+        'block.thaumictinkerer.kami_light':lang==='zh_cn'?'灵宝临时光源':'Temporary Ichor Light',
         'container.thaumictinkerer.ichor_pouch':lang==='zh_cn'?'无底袋 · 第 %s 页':'Bottomless Pouch · Page %s',
         'message.thaumictinkerer.pouch_page':lang==='zh_cn'?'无底袋：第 %s 页':'Pouch: page %s',
         'message.thaumictinkerer.gate_locked':lang==='zh_cn'?'到达锁定：%s':'Arrival lock: %s',

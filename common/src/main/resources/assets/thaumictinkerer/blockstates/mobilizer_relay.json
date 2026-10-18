@@ -1,7 +1,25 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
       "model": "thaumictinkerer:block/mobilizer_relay"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/mobilizer_relay"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/mobilizer_relay"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/mobilizer_relay",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/mobilizer_relay",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thaumictinkerer:block/mobilizer_relay",
+      "y": 90
     }
   }
 }

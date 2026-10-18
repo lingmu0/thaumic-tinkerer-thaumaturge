@@ -9,6 +9,9 @@ public final class VersionProperties {
     public static Item.Properties item(String name, Item.Properties properties) {
         return properties.setId(ResourceKey.create(Registries.ITEM, TTContent.id(name)));
     }
+    public static Item.Properties blockItem(Item.Properties properties) {
+        return properties.useBlockDescriptionPrefix();
+    }
     public static BlockBehaviour.Properties block(String name, BlockBehaviour.Properties properties) {
         return properties.setId(ResourceKey.create(Registries.BLOCK, TTContent.id(name)));
     }

@@ -1,6 +1,21 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
+      "model": "thaumictinkerer:block/transvector_interface"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/transvector_interface"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/transvector_interface"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/transvector_interface"
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/transvector_interface"
+    },
+    "facing=east": {
       "model": "thaumictinkerer:block/transvector_interface"
     }
   }

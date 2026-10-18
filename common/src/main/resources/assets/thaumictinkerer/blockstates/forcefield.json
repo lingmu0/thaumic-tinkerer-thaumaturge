@@ -1,6 +1,21 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
+      "model": "thaumictinkerer:block/forcefield"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/forcefield"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/forcefield"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/forcefield"
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/forcefield"
+    },
+    "facing=east": {
       "model": "thaumictinkerer:block/forcefield"
     }
   }

@@ -12,6 +12,10 @@ for(const language of ['en_us','zh_cn']) {
     const file=path.join(ROOT,`common/src/main/resources/assets/thaumictinkerer/lang/${language}.json`);
     const combined=JSON.parse(fs.readFileSync(file,'utf8'));
     for(const catalog of catalogs) Object.assign(combined,catalog.languages?.[language]||{});
+    // BlockItem uses block.* on both targets; item.* aliases cover pre-fix saved names
+    // and callers that construct a translation from the item registry ID directly.
+    for(const [key,name] of Object.entries(combined))if(key.startsWith('block.thaumictinkerer.'))
+        combined[key.replace(/^block\./,'item.')]=name;
     fs.writeFileSync(file,JSON.stringify(combined,null,2)+'\n');
 }
 function files(dir) {return fs.readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?files(path.join(dir,entry.name)):[path.join(dir,entry.name)]);}

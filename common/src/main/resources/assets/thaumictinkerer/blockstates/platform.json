@@ -1,6 +1,21 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
+      "model": "thaumictinkerer:block/platform"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/platform"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/platform"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/platform"
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/platform"
+    },
+    "facing=east": {
       "model": "thaumictinkerer:block/platform"
     }
   }

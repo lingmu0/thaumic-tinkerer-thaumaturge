@@ -1,6 +1,21 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
+      "model": "thaumictinkerer:block/magnet"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/magnet"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/magnet"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/magnet"
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/magnet"
+    },
+    "facing=east": {
       "model": "thaumictinkerer:block/magnet"
     }
   }

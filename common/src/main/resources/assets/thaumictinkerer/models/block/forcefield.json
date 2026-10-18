@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/block",
   "textures": {
-    "all": "thaumictinkerer:block/forcefield"
-  }
+    "particle": "minecraft:block/glass"
+  },
+  "elements": []
 }

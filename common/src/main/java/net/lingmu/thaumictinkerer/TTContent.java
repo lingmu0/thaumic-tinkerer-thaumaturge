@@ -53,7 +53,7 @@ public final class TTContent {
 
     public static <T extends Block> DeferredBlock<T> block(String name, Function<BlockBehaviour.Properties, T> factory, BlockBehaviour.Properties properties) {
         DeferredBlock<T> result = BLOCKS.register(name, () -> factory.apply(VersionProperties.block(name, properties)));
-        item(name, p -> new BlockItem(result.get(), p), new Item.Properties());
+        item(name, p -> new BlockItem(result.get(), VersionProperties.blockItem(p)), new Item.Properties());
         return result;
     }
 

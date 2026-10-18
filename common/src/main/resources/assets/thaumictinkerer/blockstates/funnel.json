@@ -1,6 +1,21 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
+      "model": "thaumictinkerer:block/funnel"
+    },
+    "facing=up": {
+      "model": "thaumictinkerer:block/funnel"
+    },
+    "facing=north": {
+      "model": "thaumictinkerer:block/funnel"
+    },
+    "facing=south": {
+      "model": "thaumictinkerer:block/funnel"
+    },
+    "facing=west": {
+      "model": "thaumictinkerer:block/funnel"
+    },
+    "facing=east": {
       "model": "thaumictinkerer:block/funnel"
     }
   }

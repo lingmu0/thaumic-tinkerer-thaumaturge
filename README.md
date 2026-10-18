@@ -1,6 +1,8 @@
 # 神秘工匠：Thaumaturge 非官方移植
 
-以原版 **Thaumic Tinkerer 1.7.10（含 KAMI）** 为内容基准，分别适配 Minecraft 1.21.1 / 26.1.2 NeoForge。模组 ID：`thaumictinkerer`。当前为 `0.1.0-dev` 开发版。
+以原版 **Thaumic Tinkerer 1.7.10（含 KAMI）** 为内容基准，分别适配 Minecraft 1.21.1 / 26.1.2 NeoForge。模组 ID：`thaumictinkerer`。当前为 `0.1.1-dev` 开发版。
+
+`0.1.1-dev` 修复烟熏石英缺失纹理、机器模型 UV、26.1.2 方块物品及六种元素火瓶的名称。更新时移走旧版 jar，只保留当前游戏版本的一份新 jar，然后重启游戏。详见 [更新记录](docs/CHANGELOG.md)。
 
 原版使用 **CC BY-NC-SA 3.0**，允许移植，须署名、非商业使用、以相同许可共享并注明修改。原作者、源码版本与完整许可见 [LICENSE](LICENSE)、[许可核查](docs/LICENSE-AUDIT.md)。本项目未采用 Reborn 的代码或新资产。
 

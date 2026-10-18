@@ -1,6 +1,314 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
   "textures": {
-    "all": "thaumictinkerer:block/mob_magnet"
-  }
+    "texture": "thaumictinkerer:block/mob_magnet",
+    "particle": "minecraft:block/iron_block"
+  },
+  "elements": [
+    {
+      "name": "panel",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7,
+            3.5,
+            10.5,
+            4
+          ],
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            0,
+            3.5,
+            3.5,
+            4
+          ],
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0,
+            7,
+            3.5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            7,
+            3.5,
+            10.5,
+            0
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            3.5,
+            7,
+            4
+          ],
+          "texture": "#texture"
+        },
+        "north": {
+          "uv": [
+            10.5,
+            3.5,
+            14,
+            4
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "name": "magnet",
+      "from": [
+        6,
+        2,
+        6
+      ],
+      "to": [
+        10,
+        15,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2,
+            5,
+            3,
+            8.25
+          ],
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            1,
+            8.25
+          ],
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            1,
+            4,
+            2,
+            5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            5,
+            3,
+            4
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            1,
+            5,
+            2,
+            8.25
+          ],
+          "texture": "#texture"
+        },
+        "north": {
+          "uv": [
+            3,
+            5,
+            4,
+            8.25
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "name": "box1",
+      "from": [
+        11,
+        2,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7,
+            4.75,
+            8.5,
+            8.25
+          ],
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            4.75,
+            10,
+            8.25
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "name": "box2",
+      "from": [
+        5,
+        2,
+        5
+      ],
+      "to": [
+        5,
+        16,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7,
+            8.25,
+            8.5,
+            11.75
+          ],
+          "texture": "#texture"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            8.25,
+            10,
+            11.75
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "name": "box3",
+      "from": [
+        5,
+        2,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            4.75,
+            11.5,
+            8.25
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            4.75,
+            13,
+            8.25
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "name": "box4",
+      "from": [
+        5,
+        2,
+        11
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            10,
+            8.25,
+            11.5,
+            11.75
+          ],
+          "texture": "#texture"
+        },
+        "north": {
+          "uv": [
+            11.5,
+            8.25,
+            13,
+            11.75
+          ],
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "name": "box5",
+      "from": [
+        5,
+        16,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.5,
+            12.25,
+            10,
+            13.75
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            10,
+            13.75,
+            11.5,
+            12.25
+          ],
+          "texture": "#texture"
+        }
+      }
+    }
+  ]
 }
