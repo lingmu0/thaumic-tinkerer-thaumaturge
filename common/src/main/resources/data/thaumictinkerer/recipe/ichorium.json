@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    " T ",
+    "IDI",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "thaumaturge:ingot_thaumium"
+    },
+    "I": {
+      "item": "thaumictinkerer:ichor"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 100,
+  "result": {
+    "id": "thaumictinkerer:ichorium",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:ichorium"
+  }
+}

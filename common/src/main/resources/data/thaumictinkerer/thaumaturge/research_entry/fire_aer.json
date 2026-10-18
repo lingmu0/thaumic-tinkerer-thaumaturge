@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.fire_aer.title",
+  "parents": [
+    "thaumictinkerer:bright_nitor"
+  ],
+  "column": 2,
+  "row": -7,
+  "icons": [
+    "thaumictinkerer:fire_aer"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.fire_aer.text",
+      "recipes": [
+        "thaumictinkerer:fire_aer"
+      ]
+    }
+  ]
+}

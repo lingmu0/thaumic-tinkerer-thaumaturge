@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.auto_smelt.title",
+  "parents": [
+    "thaumictinkerer:osmotic_enchanter"
+  ],
+  "column": 7,
+  "row": 5,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/auto_smelt.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.auto_smelt.text"
+    }
+  ]
+}

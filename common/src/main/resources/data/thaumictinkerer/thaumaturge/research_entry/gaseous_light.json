@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.gaseous_light.title",
+  "parents": [
+    "thaumaturge:base_alchemy"
+  ],
+  "column": 0,
+  "row": -3,
+  "icons": [
+    "thaumictinkerer:gaseous_light"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.gaseous_light.text",
+      "recipes": [
+        "thaumictinkerer:gaseous_light"
+      ]
+    }
+  ]
+}

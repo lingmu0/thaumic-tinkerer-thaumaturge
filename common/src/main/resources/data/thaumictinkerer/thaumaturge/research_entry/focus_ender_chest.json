@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_ender_chest.title",
+  "parents": [
+    "thaumictinkerer:focus_deflect"
+  ],
+  "column": -6,
+  "row": -2,
+  "icons": [
+    "thaumictinkerer:focus_ender_chest"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_ender_chest.text",
+      "recipes": [
+        "thaumictinkerer:focus_ender_chest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Thaumic Tinkerer — unofficial NeoForge port
+
+Original work by Vazkii, pixlepix, nekosune and the Thaumic Tinkerer contributors.
+Original project: https://github.com/Thaumic-Tinkerer/ThaumicTinkerer
+Original reference branch: 1.7.10, commit 36f3cfa8ae6fc0f6ef2fb185188f7f4be5c54354.
+
+The original Thaumic Tinkerer code and assets and this adaptation are distributed
+under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+License terms: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+
+Changes: adaptation from Minecraft 1.7.10 / Forge / Thaumcraft 4 to Minecraft
+1.21.1 and 26.1.2 / NeoForge / Thaumaturge; replacement of legacy registration,
+save data, networking, research and recipe integration.
+
+This is an unofficial adaptation. The original authors do not endorse this port.
+Thaumaturge is a separately installed dependency and is not included in this project.
+Third-party APIs bundled in the historical reference repository are not copied.

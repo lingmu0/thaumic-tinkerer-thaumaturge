@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_limus"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_limus"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_limus"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.shockwave.title",
+  "parents": [
+    "thaumictinkerer:enchant/slow_fall"
+  ],
+  "column": 9,
+  "row": 2,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/shockwave.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.shockwave.text"
+    }
+  ]
+}

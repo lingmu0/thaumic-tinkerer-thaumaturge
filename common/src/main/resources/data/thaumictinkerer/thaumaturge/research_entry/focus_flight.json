@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_flight.title",
+  "parents": [
+    "thaumictinkerer:focus_smelt"
+  ],
+  "column": -3,
+  "row": -4,
+  "icons": [
+    "thaumictinkerer:focus_flight"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_flight.text",
+      "recipes": [
+        "thaumictinkerer:focus_flight"
+      ]
+    }
+  ]
+}

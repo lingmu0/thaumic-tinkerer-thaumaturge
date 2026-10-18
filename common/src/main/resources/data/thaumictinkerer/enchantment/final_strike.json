@@ -1,0 +1,57 @@
+{
+  "description": {
+    "translate": "enchantment.thaumictinkerer.final_strike"
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": [
+    "minecraft:protection",
+    "minecraft:fire_protection",
+    "minecraft:feather_falling",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection",
+    "minecraft:respiration",
+    "minecraft:aqua_affinity",
+    "minecraft:thorns",
+    "minecraft:bane_of_arthropods",
+    "minecraft:knockback",
+    "minecraft:fire_aspect",
+    "minecraft:looting",
+    "minecraft:efficiency",
+    "minecraft:silk_touch",
+    "minecraft:fortune",
+    "minecraft:power",
+    "minecraft:punch",
+    "minecraft:flame",
+    "minecraft:infinity",
+    "minecraft:lure",
+    "minecraft:luck_of_the_sea",
+    "thaumictinkerer:ascent_boost",
+    "thaumictinkerer:slow_fall",
+    "thaumictinkerer:auto_smelt",
+    "thaumictinkerer:disintegrate",
+    "thaumictinkerer:quick_draw",
+    "thaumictinkerer:vampirism",
+    "thaumictinkerer:focused_strikes",
+    "thaumictinkerer:dispersed_strikes",
+    "thaumictinkerer:valiance",
+    "thaumictinkerer:tunnel",
+    "thaumictinkerer:shatter",
+    "thaumictinkerer:shockwave",
+    "thaumictinkerer:pounce"
+  ],
+  "effects": {}
+}

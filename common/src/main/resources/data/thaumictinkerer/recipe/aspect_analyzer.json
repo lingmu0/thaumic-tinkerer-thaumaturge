@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "TWT",
+    "WMW",
+    "TWT"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumaturge:ingot_thaumium"
+    },
+    "W": {
+      "item": "thaumaturge:plank_greatwood"
+    },
+    "M": {
+      "item": "thaumaturge:thaumometer"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 2,
+  "result": {
+    "id": "thaumictinkerer:aspect_analyzer",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:aspect_analyzer"
+  }
+}

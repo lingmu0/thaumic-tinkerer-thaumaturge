@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumictinkerer:item/focus_dislocation",
+    "layer1": "thaumictinkerer:item/focus_dislocation_layer1"
+  }
+}

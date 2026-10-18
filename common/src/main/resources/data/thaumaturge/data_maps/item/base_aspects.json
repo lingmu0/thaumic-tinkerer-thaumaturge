@@ -1,0 +1,100 @@
+{
+  "values": {
+    "thaumictinkerer:mob_aspect_aqua": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_humanus": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_aer": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_volatus": [
+      {
+        "aspect": "thaumaturge:volatus",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_ignis": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_praecantatio": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_exanimis": [
+      {
+        "aspect": "thaumaturge:exanimis",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_corpus": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_bestia": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_venenum": [
+      {
+        "aspect": "thaumaturge:vitium",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_terra": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_alienis": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_iter": [
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_metallum": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_limus": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 8
+      }
+    ],
+    "thaumictinkerer:mob_aspect_messis": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.bright_nitor.title",
+  "parents": [
+    "thaumictinkerer:gaseous_light"
+  ],
+  "column": 1,
+  "row": -5,
+  "icons": [
+    "thaumictinkerer:bright_nitor"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.bright_nitor.text",
+      "recipes": [
+        "thaumictinkerer:bright_nitor"
+      ]
+    }
+  ]
+}

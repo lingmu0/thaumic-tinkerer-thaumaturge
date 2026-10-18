@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.osmotic_enchanter.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": -3,
+  "row": -6,
+  "icons": [
+    "thaumictinkerer:enchanter"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.osmotic_enchanter.text",
+      "recipes": [
+        "thaumictinkerer:enchanter"
+      ]
+    }
+  ]
+}

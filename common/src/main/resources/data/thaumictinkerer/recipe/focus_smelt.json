@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "FNE"
+  ],
+  "key": {
+    "F": {
+      "item": "thaumaturge:focus_1"
+    },
+    "N": {
+      "item": "thaumaturge:nitor_yellow"
+    },
+    "E": {
+      "item": "thaumaturge:focus_1"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 21,
+  "result": {
+    "id": "thaumictinkerer:focus_smelt"
+  },
+  "research": {
+    "entry": "thaumictinkerer:focus_smelt"
+  }
+}

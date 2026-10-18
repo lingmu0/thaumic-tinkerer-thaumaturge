@@ -1,0 +1,64 @@
+{
+  "values": {
+    "thaumictinkerer:focus_smelt": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_flight": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_deflect": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_heal": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_ender_chest": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_telekinesis": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_dislocation": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_shadowbeam": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_xp_drain": {
+      "complexity": 75,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    },
+    "thaumictinkerer:focus_recall": {
+      "complexity": 160,
+      "depth": 14,
+      "branches": 4,
+      "repeats": 4
+    }
+  }
+}

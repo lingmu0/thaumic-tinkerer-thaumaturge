@@ -1,0 +1,25 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "thaumictinkerer:bedrock_ores"
+    ]
+  ],
+  "attributes": {
+    "minecraft:visual/sky_color": "#000000"
+  }
+}

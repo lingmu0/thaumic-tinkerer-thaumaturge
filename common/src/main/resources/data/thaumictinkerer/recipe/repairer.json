@@ -1,0 +1,57 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumaturge:metal_thaumium"
+  },
+  "components": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:oak_planks"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "thaumaturge:fabric"
+    },
+    {
+      "item": "thaumaturge:ingot_thaumium"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 15
+    }
+  ],
+  "instability": 8,
+  "result": {
+    "id": "thaumictinkerer:repairer"
+  },
+  "research": {
+    "entry": "thaumictinkerer:repairer"
+  }
+}

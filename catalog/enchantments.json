@@ -1,0 +1,226 @@
+{
+  "languages": {
+    "en_us": {
+      "enchantment.thaumictinkerer.ascent_boost": "Ascent Boost",
+      "research.thaumictinkerer.enchant.ascent_boost.title": "Ascent Boost",
+      "research.thaumictinkerer.enchant.ascent_boost.text": "Increases jump velocity when not sneaking.",
+      "enchantment.thaumictinkerer.slow_fall": "Slow Fall",
+      "research.thaumictinkerer.enchant.slow_fall.title": "Slow Fall",
+      "research.thaumictinkerer.enchant.slow_fall.text": "Slows falls after 2.9 blocks. Sneak to fall normally.",
+      "enchantment.thaumictinkerer.auto_smelt": "Fiery Core",
+      "research.thaumictinkerer.enchant.auto_smelt.title": "Fiery Core",
+      "research.thaumictinkerer.enchant.auto_smelt.text": "Instantly breaks wood and smelts its drops when a furnace recipe exists. Other block materials cannot be mined with this enchantment.",
+      "enchantment.thaumictinkerer.disintegrate": "Disintegrate",
+      "research.thaumictinkerer.enchant.disintegrate.title": "Disintegrate",
+      "research.thaumictinkerer.enchant.disintegrate.text": "Instantly destroys blocks with hardness at most 1.5, producing no drops or experience.",
+      "enchantment.thaumictinkerer.quick_draw": "Quick Draw",
+      "research.thaumictinkerer.enchant.quick_draw.title": "Quick Draw",
+      "research.thaumictinkerer.enchant.quick_draw.text": "Draws bows more quickly.",
+      "enchantment.thaumictinkerer.vampirism": "Vampirism",
+      "research.thaumictinkerer.enchant.vampirism.title": "Vampirism",
+      "research.thaumictinkerer.enchant.vampirism.text": "Heals the attacker by one heart per two enchantment levels of health points per hit.",
+      "enchantment.thaumictinkerer.focused_strikes": "Focused Strikes",
+      "research.thaumictinkerer.enchant.focused_strikes.title": "Focused Strikes",
+      "research.thaumictinkerer.enchant.focused_strikes.text": "Damage starts at half and grows as the same target is struck repeatedly.",
+      "enchantment.thaumictinkerer.dispersed_strikes": "Dispersed Strikes",
+      "research.thaumictinkerer.enchant.dispersed_strikes.title": "Dispersed Strikes",
+      "research.thaumictinkerer.enchant.dispersed_strikes.text": "Repeated attacks against the same target deal reduced damage. Change targets to reset the penalty.",
+      "enchantment.thaumictinkerer.final_strike": "Final Strike",
+      "research.thaumictinkerer.enchant.final_strike.title": "Final Strike",
+      "research.thaumictinkerer.enchant.final_strike.text": "A small chance to triple attack damage.",
+      "enchantment.thaumictinkerer.pounce": "Pounce",
+      "research.thaumictinkerer.enchant.pounce.title": "Pounce",
+      "research.thaumictinkerer.enchant.pounce.text": "Increases attack damage while airborne.",
+      "enchantment.thaumictinkerer.shatter": "Shatter",
+      "research.thaumictinkerer.enchant.shatter.title": "Shatter",
+      "research.thaumictinkerer.enchant.shatter.text": "Increases speed on blocks harder than 20; other blocks are slower to mine.",
+      "enchantment.thaumictinkerer.shockwave": "Shockwave",
+      "research.thaumictinkerer.enchant.shockwave.title": "Shockwave",
+      "research.thaumictinkerer.enchant.shockwave.text": "A fall of more than three blocks damages other living entities within ten blocks.",
+      "enchantment.thaumictinkerer.tunnel": "Tunneling",
+      "research.thaumictinkerer.enchant.tunnel.title": "Tunneling",
+      "research.thaumictinkerer.enchant.tunnel.text": "Mining in the same direction becomes faster. Turning more than 50 degrees incurs a speed penalty until the next block is broken.",
+      "enchantment.thaumictinkerer.valiance": "Valiance",
+      "research.thaumictinkerer.enchant.valiance.title": "Valiance",
+      "research.thaumictinkerer.enchant.valiance.text": "Increases damage while below half health."
+    },
+    "zh_cn": {
+      "enchantment.thaumictinkerer.ascent_boost": "腾跃",
+      "research.thaumictinkerer.enchant.ascent_boost.title": "腾跃",
+      "research.thaumictinkerer.enchant.ascent_boost.text": "非潜行时提高起跳速度。",
+      "enchantment.thaumictinkerer.slow_fall": "缓落",
+      "research.thaumictinkerer.enchant.slow_fall.title": "缓落",
+      "research.thaumictinkerer.enchant.slow_fall.text": "下落超过 2.9 格后减速，潜行可正常下落。",
+      "enchantment.thaumictinkerer.auto_smelt": "炽热核心",
+      "research.thaumictinkerer.enchant.auto_smelt.title": "炽热核心",
+      "research.thaumictinkerer.enchant.auto_smelt.text": "立即破坏木质方块；若掉落物可烧炼，自动转换为产物。此附魔无法开采其他材质。",
+      "enchantment.thaumictinkerer.disintegrate": "分解",
+      "research.thaumictinkerer.enchant.disintegrate.title": "分解",
+      "research.thaumictinkerer.enchant.disintegrate.text": "立即摧毁硬度不超过 1.5 的方块，不产生掉落物或经验。",
+      "enchantment.thaumictinkerer.quick_draw": "速射",
+      "research.thaumictinkerer.enchant.quick_draw.title": "速射",
+      "research.thaumictinkerer.enchant.quick_draw.text": "加快弓的拉弦速度。",
+      "enchantment.thaumictinkerer.vampirism": "吸血",
+      "research.thaumictinkerer.enchant.vampirism.title": "吸血",
+      "research.thaumictinkerer.enchant.vampirism.text": "每次命中恢复等于附魔等级的生命值。",
+      "enchantment.thaumictinkerer.focused_strikes": "专注打击",
+      "research.thaumictinkerer.enchant.focused_strikes.title": "专注打击",
+      "research.thaumictinkerer.enchant.focused_strikes.text": "首次伤害减半，连续攻击同一目标时逐渐增加。",
+      "enchantment.thaumictinkerer.dispersed_strikes": "分散打击",
+      "research.thaumictinkerer.enchant.dispersed_strikes.title": "分散打击",
+      "research.thaumictinkerer.enchant.dispersed_strikes.text": "连续攻击同一目标时伤害降低，切换目标可重置。",
+      "enchantment.thaumictinkerer.final_strike": "终结打击",
+      "research.thaumictinkerer.enchant.final_strike.title": "终结打击",
+      "research.thaumictinkerer.enchant.final_strike.text": "攻击有一定概率造成三倍伤害。",
+      "enchantment.thaumictinkerer.pounce": "猛扑",
+      "research.thaumictinkerer.enchant.pounce.title": "猛扑",
+      "research.thaumictinkerer.enchant.pounce.text": "腾空时增加攻击伤害。",
+      "enchantment.thaumictinkerer.shatter": "粉碎",
+      "research.thaumictinkerer.enchant.shatter.title": "粉碎",
+      "research.thaumictinkerer.enchant.shatter.text": "大幅加速开采硬度超过 20 的方块，开采其他方块时略微减速。",
+      "enchantment.thaumictinkerer.shockwave": "冲击波",
+      "research.thaumictinkerer.enchant.shockwave.title": "冲击波",
+      "research.thaumictinkerer.enchant.shockwave.text": "从超过三格的高度坠落时，对十格内其他生物造成冲击伤害。",
+      "enchantment.thaumictinkerer.tunnel": "隧道",
+      "research.thaumictinkerer.enchant.tunnel.title": "隧道",
+      "research.thaumictinkerer.enchant.tunnel.text": "沿相同方向挖掘更快，转向超过 50 度后减速，直至破坏下一个方块。",
+      "enchantment.thaumictinkerer.valiance": "英勇",
+      "research.thaumictinkerer.enchant.valiance.title": "英勇",
+      "research.thaumictinkerer.enchant.valiance.text": "生命值低于一半时提高伤害。"
+    }
+  },
+  "enchantments": {
+    "ascent_boost": {
+      "maxLevel": 4,
+      "slot": "legs",
+      "baseCost": {
+        "perditio": 8,
+        "aer": 10
+      },
+      "research": "thaumictinkerer:enchant/ascent_boost"
+    },
+    "slow_fall": {
+      "maxLevel": 3,
+      "slot": "feet",
+      "baseCost": {
+        "ordo": 8,
+        "aer": 10
+      },
+      "research": "thaumictinkerer:enchant/slow_fall"
+    },
+    "auto_smelt": {
+      "maxLevel": 1,
+      "slot": "mainhand",
+      "baseCost": {
+        "perditio": 20,
+        "ignis": 30
+      },
+      "research": "thaumictinkerer:enchant/auto_smelt"
+    },
+    "disintegrate": {
+      "maxLevel": 1,
+      "slot": "mainhand",
+      "baseCost": {
+        "perditio": 25,
+        "aer": 10,
+        "terra": 10
+      },
+      "research": "thaumictinkerer:enchant/disintegrate"
+    },
+    "quick_draw": {
+      "maxLevel": 2,
+      "slot": "mainhand",
+      "baseCost": {
+        "ordo": 10,
+        "aer": 10,
+        "aqua": 5
+      },
+      "research": "thaumictinkerer:enchant/quick_draw"
+    },
+    "vampirism": {
+      "maxLevel": 2,
+      "slot": "mainhand",
+      "baseCost": {
+        "perditio": 8,
+        "ignis": 10,
+        "aqua": 10
+      },
+      "research": "thaumictinkerer:enchant/vampirism"
+    },
+    "focused_strikes": {
+      "maxLevel": 5,
+      "slot": "mainhand",
+      "baseCost": {
+        "ordo": 12,
+        "aer": 10,
+        "aqua": 10
+      },
+      "research": "thaumictinkerer:enchant/focused_strikes"
+    },
+    "dispersed_strikes": {
+      "maxLevel": 5,
+      "slot": "mainhand",
+      "baseCost": {
+        "perditio": 12,
+        "ignis": 10,
+        "terra": 10
+      },
+      "research": "thaumictinkerer:enchant/dispersed_strikes"
+    },
+    "final_strike": {
+      "maxLevel": 5,
+      "slot": "mainhand",
+      "baseCost": {
+        "perditio": 16,
+        "ignis": 16
+      },
+      "research": "thaumictinkerer:enchant/final_strike"
+    },
+    "pounce": {
+      "maxLevel": 5,
+      "slot": "legs",
+      "baseCost": {
+        "terra": 16,
+        "aer": 16
+      },
+      "research": "thaumictinkerer:enchant/pounce"
+    },
+    "shatter": {
+      "maxLevel": 5,
+      "slot": "mainhand",
+      "baseCost": {
+        "terra": 16,
+        "perditio": 16
+      },
+      "research": "thaumictinkerer:enchant/shatter"
+    },
+    "shockwave": {
+      "maxLevel": 5,
+      "slot": "feet",
+      "baseCost": {
+        "terra": 16,
+        "aer": 16
+      },
+      "research": "thaumictinkerer:enchant/shockwave"
+    },
+    "tunnel": {
+      "maxLevel": 5,
+      "slot": "mainhand",
+      "baseCost": {
+        "terra": 16,
+        "ordo": 16
+      },
+      "research": "thaumictinkerer:enchant/tunnel"
+    },
+    "valiance": {
+      "maxLevel": 5,
+      "slot": "mainhand",
+      "baseCost": {
+        "ordo": 12,
+        "ignis": 10,
+        "terra": 10
+      },
+      "research": "thaumictinkerer:enchant/valiance"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thaumictinkerer:ichor_helm",
+    "thaumictinkerer:ichor_helm_gem",
+    "thaumictinkerer:revealing_helm"
+  ]
+}

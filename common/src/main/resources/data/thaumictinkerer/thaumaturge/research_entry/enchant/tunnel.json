@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.tunnel.title",
+  "parents": [
+    "thaumictinkerer:enchant/auto_smelt"
+  ],
+  "column": 9,
+  "row": 6,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/tunnel.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.tunnel.text"
+    }
+  ]
+}

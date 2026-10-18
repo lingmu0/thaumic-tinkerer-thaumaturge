@@ -1,0 +1,34 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:clay_ball"
+  },
+  "components": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:oak_log"
+    },
+    {
+      "item": "thaumictinkerer:ender_shard"
+    }
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumictinkerer:protoclay"
+  },
+  "result": {
+    "id": "thaumictinkerer:protoclay",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_shadowbeam.title",
+  "parents": [
+    "thaumictinkerer:ichorcloth_rod"
+  ],
+  "column": 14,
+  "row": 4,
+  "icons": [
+    "thaumictinkerer:focus_shadowbeam"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_shadowbeam.text",
+      "recipes": [
+        "thaumictinkerer:focus_shadowbeam"
+      ]
+    }
+  ]
+}

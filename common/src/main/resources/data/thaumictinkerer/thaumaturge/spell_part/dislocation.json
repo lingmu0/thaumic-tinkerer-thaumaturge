@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "dislocation"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_dislocation.png",
+  "color": 16757248,
+  "complexity": 0,
+  "vis": 0,
+  "aspect": "thaumaturge:permutatio",
+  "research": {
+    "entry": "thaumictinkerer:focus_dislocation"
+  },
+  "max_per_spell": 1
+}

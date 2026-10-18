@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    " I ",
+    " WI",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "thaumaturge:crystal_ordo"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "vis": 2,
+  "result": {
+    "id": "thaumictinkerer:connector",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:transvector_interface"
+  }
+}

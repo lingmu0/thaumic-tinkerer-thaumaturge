@@ -1,0 +1,22 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumictinkerer:infused_grain_ignis"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:infused_potion_ignis"
+  },
+  "research": {
+    "entry": "thaumictinkerer:infused_potion_ignis"
+  }
+}

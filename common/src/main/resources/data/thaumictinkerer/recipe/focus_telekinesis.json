@@ -1,0 +1,54 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "minecraft:ender_pearl"
+  },
+  "components": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "thaumaturge:crystal_aer"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 10
+    }
+  ],
+  "instability": 5,
+  "result": {
+    "id": "thaumictinkerer:focus_telekinesis"
+  },
+  "research": {
+    "entry": "thaumictinkerer:focus_telekinesis"
+  }
+}

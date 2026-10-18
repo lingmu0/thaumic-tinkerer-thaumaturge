@@ -1,0 +1,82 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:ichor_sword"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:ichorium"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturge:elemental_sword"
+    },
+    {
+      "item": "thaumaturge:focus_2"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "thaumaturge:cluster_cinnabar"
+    },
+    {
+      "item": "thaumaturge:cluster_iron"
+    },
+    {
+      "item": "thaumaturge:cluster_gold"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumaturge:focus_2"
+    },
+    {
+      "item": "thaumaturge:elemental_sword"
+    },
+    {
+      "item": "thaumictinkerer:ichor_cloth"
+    }
+  ],
+  "instability": 15,
+  "research": {
+    "entry": "thaumictinkerer:ichor_sword_gem"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichor_sword_gem",
+    "count": 1
+  }
+}

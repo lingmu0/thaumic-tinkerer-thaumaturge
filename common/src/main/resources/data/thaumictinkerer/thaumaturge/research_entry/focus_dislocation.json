@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_dislocation.title",
+  "parents": [
+    "thaumictinkerer:focus_flight"
+  ],
+  "column": -5,
+  "row": -5,
+  "icons": [
+    "thaumictinkerer:focus_dislocation"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_dislocation.text",
+      "recipes": [
+        "thaumictinkerer:focus_dislocation"
+      ]
+    }
+  ]
+}

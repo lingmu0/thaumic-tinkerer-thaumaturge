@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "recall"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_recall.png",
+  "color": 10287359,
+  "complexity": 100,
+  "vis": 100,
+  "aspect": "thaumaturge:motus",
+  "research": {
+    "entry": "thaumictinkerer:focus_recall"
+  },
+  "max_per_spell": 1
+}

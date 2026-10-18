@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "thaumictinkerer:block/infused_crop_ignis_1"
+  }
+}

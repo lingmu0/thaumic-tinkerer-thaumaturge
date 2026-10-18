@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.fire_terra.title",
+  "parents": [
+    "thaumictinkerer:bright_nitor"
+  ],
+  "column": 6,
+  "row": -7,
+  "icons": [
+    "thaumictinkerer:fire_terra"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.fire_terra.text",
+      "recipes": [
+        "thaumictinkerer:fire_terra"
+      ]
+    }
+  ]
+}

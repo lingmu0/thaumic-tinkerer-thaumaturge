@@ -1,0 +1,37 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.final_strike.title",
+  "parents": [
+    "thaumictinkerer:enchant/focused_strikes",
+    "thaumictinkerer:enchant/dispersed_strikes"
+  ],
+  "column": 0,
+  "row": 8,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/final_strike.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.final_strike.text"
+    }
+  ]
+}

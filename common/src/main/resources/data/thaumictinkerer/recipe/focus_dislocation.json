@@ -1,0 +1,61 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "minecraft:ender_pearl"
+  },
+  "components": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "thaumaturge:amber"
+    },
+    {
+      "item": "thaumaturge:amber"
+    },
+    {
+      "item": "thaumaturge:amber"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 5
+    }
+  ],
+  "instability": 8,
+  "result": {
+    "id": "thaumictinkerer:focus_dislocation"
+  },
+  "research": {
+    "entry": "thaumictinkerer:focus_dislocation"
+  }
+}

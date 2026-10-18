@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC-BY-NC-SA-3.0"
+
+[[mods]]
+modId="thaumictinkerer"
+version="${mod_version}"
+displayName="Thaumic Tinkerer (Unofficial)"
+authors="Vazkii, pixlepix, nekosune, Thaumic Tinkerer contributors; NeoForge adaptation: lingmu"
+description='''Unofficial adaptation of Thaumic Tinkerer for Thaumaturge.'''
+
+[[mixins]]
+config="thaumictinkerer.mixins.json"
+
+[[dependencies.thaumictinkerer]]
+modId="curios"
+type="required"
+versionRange="[${curios_version},)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.thaumictinkerer]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.thaumictinkerer]]
+modId="minecraft"
+type="required"
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.thaumictinkerer]]
+modId="thaumaturge"
+type="required"
+versionRange="[${thaumaturge_version}]"
+ordering="AFTER"
+side="BOTH"

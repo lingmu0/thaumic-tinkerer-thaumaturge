@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.shatter.title",
+  "parents": [
+    "thaumictinkerer:enchant/disintegrate"
+  ],
+  "column": 5,
+  "row": 8,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/shatter.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.shatter.text"
+    }
+  ]
+}

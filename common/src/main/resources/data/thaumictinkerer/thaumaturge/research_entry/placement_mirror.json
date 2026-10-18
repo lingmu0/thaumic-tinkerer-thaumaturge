@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.placement_mirror.title",
+  "parents": [
+    "thaumictinkerer:block_talisman"
+  ],
+  "column": 17,
+  "row": 16,
+  "icons": [
+    "thaumictinkerer:placement_mirror"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.placement_mirror.text",
+      "recipes": [
+        "thaumictinkerer:placement_mirror"
+      ]
+    }
+  ]
+}

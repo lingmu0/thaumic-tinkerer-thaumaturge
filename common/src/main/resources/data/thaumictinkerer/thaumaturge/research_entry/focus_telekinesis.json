@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_telekinesis.title",
+  "parents": [
+    "thaumictinkerer:focus_flight"
+  ],
+  "column": -4,
+  "row": -6,
+  "icons": [
+    "thaumictinkerer:focus_telekinesis"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_telekinesis.text",
+      "recipes": [
+        "thaumictinkerer:focus_telekinesis"
+      ]
+    }
+  ]
+}

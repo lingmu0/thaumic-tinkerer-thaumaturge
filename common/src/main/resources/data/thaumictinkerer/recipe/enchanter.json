@@ -1,0 +1,61 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "minecraft:enchanting_table"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:stone_ancient_tile"
+    },
+    {
+      "item": "thaumaturge:stone_ancient_tile"
+    },
+    {
+      "item": "thaumaturge:stone_ancient_tile"
+    },
+    {
+      "item": "thaumaturge:stone_ancient_tile"
+    },
+    {
+      "item": "thaumaturge:stone_ancient_tile"
+    },
+    {
+      "item": "thaumaturge:ingot_thaumium"
+    },
+    {
+      "item": "thaumaturge:ingot_thaumium"
+    },
+    {
+      "item": "thaumictinkerer:spell_cloth"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 10
+    }
+  ],
+  "instability": 15,
+  "result": {
+    "id": "thaumictinkerer:enchanter"
+  },
+  "research": {
+    "entry": "thaumictinkerer:osmotic_enchanter"
+  }
+}

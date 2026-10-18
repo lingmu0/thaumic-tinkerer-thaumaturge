@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.cat_amulet.title",
+  "parents": [
+    "thaumictinkerer:ichorium"
+  ],
+  "column": 13,
+  "row": 10,
+  "icons": [
+    "thaumictinkerer:cat_amulet"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.cat_amulet.text",
+      "recipes": [
+        "thaumictinkerer:cat_amulet"
+      ]
+    }
+  ]
+}

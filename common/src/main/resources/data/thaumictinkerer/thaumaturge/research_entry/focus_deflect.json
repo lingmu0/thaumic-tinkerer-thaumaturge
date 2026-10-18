@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_deflect.title",
+  "parents": [
+    "thaumictinkerer:focus_smelt"
+  ],
+  "column": -4,
+  "row": -3,
+  "icons": [
+    "thaumictinkerer:focus_deflect"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_deflect.text",
+      "recipes": [
+        "thaumictinkerer:focus_deflect"
+      ]
+    }
+  ]
+}

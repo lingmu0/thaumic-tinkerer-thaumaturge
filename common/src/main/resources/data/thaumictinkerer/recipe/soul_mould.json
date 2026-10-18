@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "minecraft:ender_pearl"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 8
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:soul_mould"
+  },
+  "research": {
+    "entry": "thaumictinkerer:soul_mould"
+  }
+}

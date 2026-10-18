@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    " M ",
+    " I ",
+    " C "
+  ],
+  "key": {
+    "M": {
+      "item": "thaumaturge:mirrored_glass"
+    },
+    "I": {
+      "item": "thaumictinkerer:transvector_interface"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 10,
+  "result": {
+    "id": "thaumictinkerer:transvector_dislocator",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:transvector_dislocator"
+  }
+}

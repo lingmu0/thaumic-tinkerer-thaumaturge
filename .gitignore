@@ -1,0 +1,8 @@
+.gradle/
+**/build/
+**/run/
+dev-libs/
+*.log
+.idea/
+validation/test-classes/
+dist/

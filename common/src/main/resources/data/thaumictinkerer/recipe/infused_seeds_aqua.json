@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "minecraft:wheat_seeds"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:crystal_aqua"
+    },
+    {
+      "item": "thaumaturge:crystal_aqua"
+    },
+    {
+      "item": "thaumaturge:crystal_aqua"
+    },
+    {
+      "item": "thaumaturge:crystal_aqua"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 32
+    }
+  ],
+  "instability": 5,
+  "result": {
+    "id": "thaumictinkerer:infused_seeds_aqua"
+  },
+  "research": {
+    "entry": "thaumictinkerer:infused_crops"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumictinkerer:infused_grain_terra"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 5
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:infused_potion_terra"
+  },
+  "research": {
+    "entry": "thaumictinkerer:infused_potion_terra"
+  }
+}

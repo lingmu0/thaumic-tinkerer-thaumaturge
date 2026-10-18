@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_alienis"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_alienis"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

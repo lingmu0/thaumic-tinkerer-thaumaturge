@@ -1,0 +1,24 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.share_book.title",
+  "parents": [],
+  "column": 0,
+  "row": -1,
+  "icons": [
+    "thaumictinkerer:share_book"
+  ],
+  "note_aspects": [],
+  "complexity": 1,
+  "meta": [
+    "autounlock",
+    "round"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.share_book.text",
+      "recipes": [
+        "thaumictinkerer:share_book"
+      ]
+    }
+  ]
+}

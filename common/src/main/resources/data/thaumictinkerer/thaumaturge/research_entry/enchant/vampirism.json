@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.vampirism.title",
+  "parents": [
+    "thaumictinkerer:osmotic_enchanter"
+  ],
+  "column": 3,
+  "row": 5,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/vampirism.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.vampirism.text"
+    }
+  ]
+}

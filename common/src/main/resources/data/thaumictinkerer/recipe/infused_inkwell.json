@@ -1,0 +1,34 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumaturge:scribing_tools"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:crystal_aer"
+    },
+    {
+      "item": "thaumaturge:jar_normal"
+    },
+    {
+      "item": "thaumaturge:quicksilver"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 8
+    }
+  ],
+  "instability": 2,
+  "result": {
+    "id": "thaumictinkerer:infused_inkwell"
+  },
+  "research": {
+    "entry": "thaumictinkerer:infused_inkwell"
+  }
+}

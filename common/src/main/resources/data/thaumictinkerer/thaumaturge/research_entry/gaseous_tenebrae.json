@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.gaseous_tenebrae.title",
+  "parents": [
+    "thaumictinkerer:gaseous_light"
+  ],
+  "column": -1,
+  "row": -5,
+  "icons": [
+    "thaumictinkerer:gaseous_tenebrae"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.gaseous_tenebrae.text",
+      "recipes": [
+        "thaumictinkerer:gaseous_tenebrae"
+      ]
+    }
+  ]
+}

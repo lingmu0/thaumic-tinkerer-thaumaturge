@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_boots_gem.title",
+  "parents": [
+    "thaumictinkerer:ichorcloth_armor"
+  ],
+  "column": 15,
+  "row": 10,
+  "icons": [
+    "thaumictinkerer:ichor_boots_gem"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_boots_gem.text",
+      "recipes": [
+        "thaumictinkerer:ichor_boots_gem"
+      ]
+    }
+  ]
+}

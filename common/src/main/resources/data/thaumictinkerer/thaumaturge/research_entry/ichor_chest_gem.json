@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_chest_gem.title",
+  "parents": [
+    "thaumictinkerer:ichorcloth_armor"
+  ],
+  "column": 17,
+  "row": 7,
+  "icons": [
+    "thaumictinkerer:ichor_chest_gem"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_chest_gem.text",
+      "recipes": [
+        "thaumictinkerer:ichor_chest_gem"
+      ]
+    }
+  ]
+}

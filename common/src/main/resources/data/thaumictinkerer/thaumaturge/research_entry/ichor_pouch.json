@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_pouch.title",
+  "parents": [
+    "thaumictinkerer:ichor_cloth"
+  ],
+  "column": 13,
+  "row": 6,
+  "icons": [
+    "thaumictinkerer:ichor_pouch"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_pouch.text",
+      "recipes": [
+        "thaumictinkerer:ichor_pouch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    " I ",
+    "SIs",
+    "WFW"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "thaumaturge:crystal_aer"
+    },
+    "s": {
+      "item": "thaumaturge:crystal_terra"
+    },
+    "W": {
+      "item": "thaumaturge:log_greatwood"
+    },
+    "F": {
+      "item": "thaumictinkerer:focus_telekinesis"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 45,
+  "result": {
+    "id": "thaumictinkerer:mob_magnet",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:mob_magnet"
+  }
+}

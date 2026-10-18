@@ -1,0 +1,96 @@
+plugins.apply('java-library')
+plugins.apply('net.neoforged.moddev')
+
+group = 'net.lingmu.thaumictinkerer'
+version = "${mod_version}+${minecraft_version}"
+base.archivesName = 'thaumic-tinkerer'
+java.toolchain.languageVersion = JavaLanguageVersion.of(java_version as int)
+java.withSourcesJar()
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.leclowndu93150.dev/releases' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://cursemaven.com' }
+}
+
+def modern = minecraft_version == '26.1.2'
+def generatedJava = tasks.register('prepareVersionSources', Copy) {
+    from('../common/src/main/java')
+    into(layout.buildDirectory.dir('generated/sources/version'))
+    filteringCharset = 'UTF-8'
+    if (modern) {
+        exclude('**/SpellClothRecipe.java')
+        filter { line -> line.replace('ResourceLocation', 'Identifier')
+            .replace('import net.minecraft.world.InteractionResultHolder;', 'import net.minecraft.world.InteractionResult;')
+            .replace('InteractionResultHolder<ItemStack>', 'InteractionResult')
+            .replace('InteractionResultHolder.sidedSuccess(stack, level.isClientSide)', 'InteractionResult.SUCCESS')
+            .replace('.location()', '.identifier()')
+            .replace('.noCollission()', '.noCollision()')
+            .replace('.getNormal()', '.getUnitVec3i()')
+            .replace('.getMinBuildHeight()', '.getMinY()')
+            .replace('MobEffects.DIG_SPEED', 'MobEffects.HASTE')
+            .replace('MobEffects.DAMAGE_RESISTANCE', 'MobEffects.RESISTANCE')
+            .replace('.hasImpulse', '.needsSync')
+            .replace('BlockEvent.BreakEvent', 'net.neoforged.neoforge.event.level.block.BreakBlockEvent')
+            .replaceAll(/\b(\w+)\.displayClientMessage\(/, 'net.lingmu.thaumictinkerer.VersionMessages.send($1,')
+            .replace('.isClientSide', '.isClientSide()') }
+    }
+}
+sourceSets.main.java.srcDir(generatedJava)
+sourceSets.main.resources.srcDirs('../common/src/main/resources')
+
+neoForge {
+    version = project.neo_version
+    mods {
+        thaumictinkerer { sourceSet(sourceSets.main) }
+    }
+}
+
+dependencies {
+    compileOnly "top.theillusivec4.curios:curios-neoforge:${modern ? '15.0.0+26.1.2' : '9.2.3+1.21.1'}"
+    if (providers.gradleProperty('thaumaturge_jar').isPresent()) {
+        compileOnly files(providers.gradleProperty('thaumaturge_jar').get())
+    } else if (modern) {
+        def releaseJar = file('../dev-libs/thaumaturge-26.1.2-1.0.2.jar')
+        if (releaseJar.exists()) compileOnly files(releaseJar)
+        else compileOnly 'curse.maven:thaumaturge-1628024:9095192'
+    } else {
+        def localDependency = file('../../.thaumaturge-1.21.1-upstream/build/libs/thaumaturge-1.21.1-NeoForge-1.0.4.jar')
+        if (localDependency.exists()) compileOnly files(localDependency)
+        else throw new GradleException('Thaumaturge 1.21.1 is not published. Build its official 1.21.1 branch, then supply -Pthaumaturge_jar=<absolute jar path>. See README.md.')
+    }
+}
+
+tasks.named('processResources') {
+    inputs.property('mod_version', project.version)
+    inputs.property('minecraft_version', minecraft_version)
+    inputs.property('neo_version', neo_version)
+    inputs.property('thaumaturge_version', thaumaturge_version)
+    inputs.property('curios_version', curios_version)
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand(mod_version: project.version, minecraft_version: minecraft_version,
+            neo_version: neo_version, thaumaturge_version: thaumaturge_version,
+            curios_version: curios_version)
+    }
+    if (modern) {
+        doLast {
+            def convert
+            convert = { value ->
+                if (value instanceof Map) {
+                    if (value.size() == 1 && value.containsKey('item')) return value.item
+                    if (value.size() == 1 && value.containsKey('tag')) return '#' + value.tag
+                    return value.collectEntries { key, entry -> [(key): convert(entry)] }
+                }
+                if (value instanceof List) return value.collect { convert(it) }
+                return value
+            }
+            fileTree(destinationDir).matching { include('data/**/recipe/**/*.json') }.each { recipe ->
+                def value = new groovy.json.JsonSlurper().parse(recipe, 'UTF-8')
+                recipe.setText(groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(convert(value))) + '\n', 'UTF-8')
+            }
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(Jar).configureEach { from('../LICENSE', '../LICENSE-CC-BY-NC-SA-3.0.txt') }

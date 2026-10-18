@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "BRB",
+    "LEL",
+    "BRB"
+  ],
+  "key": {
+    "B": {
+      "item": "thaumaturge:stone_arcane"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 28,
+  "result": {
+    "id": "thaumictinkerer:transvector_interface",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:transvector_interface"
+  }
+}

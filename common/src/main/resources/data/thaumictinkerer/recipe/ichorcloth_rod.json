@@ -1,0 +1,48 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 100
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:wand_rod_silverwood"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumictinkerer:ichor_cloth"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "thaumictinkerer:ichor_cloth"
+    }
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "thaumictinkerer:ichorcloth_rod"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichorcloth_rod",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumaturge:phial"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 8
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:gaseous_tenebrae"
+  },
+  "research": {
+    "entry": "thaumictinkerer:gaseous_tenebrae"
+  }
+}

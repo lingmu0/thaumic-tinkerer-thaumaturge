@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_metallum"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_metallum"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

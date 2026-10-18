@@ -1,0 +1,82 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:ichor_chest"
+  },
+  "components": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturge:focus_3"
+    },
+    {
+      "item": "thaumaturge:thaumonomicon"
+    },
+    {
+      "item": "minecraft:golden_chestplate"
+    },
+    {
+      "item": "thaumictinkerer:focus_flight"
+    },
+    {
+      "item": "thaumaturge:thaumostatic_harness"
+    },
+    {
+      "item": "thaumictinkerer:focus_deflect"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "instability": 13,
+  "research": {
+    "entry": "thaumictinkerer:ichor_chest_gem"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichor_chest_gem",
+    "count": 1
+  }
+}

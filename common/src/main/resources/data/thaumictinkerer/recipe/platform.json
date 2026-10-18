@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    " S ",
+    "G G"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumaturge:arcane_pressure_plate"
+    },
+    "G": {
+      "item": "thaumaturge:plank_greatwood"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 6,
+  "result": {
+    "id": "thaumictinkerer:platform",
+    "count": 2
+  },
+  "research": {
+    "entry": "thaumictinkerer:platform"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_aer"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_aer"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_aer"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

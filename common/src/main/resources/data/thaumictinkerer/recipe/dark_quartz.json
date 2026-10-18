@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "QQQ",
+    "QCQ",
+    "QQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "id": "thaumictinkerer:dark_quartz",
+    "count": 8
+  }
+}

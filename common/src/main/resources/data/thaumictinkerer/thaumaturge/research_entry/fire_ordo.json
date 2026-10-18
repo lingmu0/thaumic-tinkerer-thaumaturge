@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.fire_ordo.title",
+  "parents": [
+    "thaumictinkerer:bright_nitor"
+  ],
+  "column": 10,
+  "row": -7,
+  "icons": [
+    "thaumictinkerer:fire_ordo"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.fire_ordo.text",
+      "recipes": [
+        "thaumictinkerer:fire_ordo"
+      ]
+    }
+  ]
+}

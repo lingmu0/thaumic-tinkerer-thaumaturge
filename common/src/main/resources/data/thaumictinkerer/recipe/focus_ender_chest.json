@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "M",
+    "E",
+    "P"
+  ],
+  "key": {
+    "M": {
+      "item": "thaumaturge:mirror"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "thaumaturge:focus_2"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 20,
+  "result": {
+    "id": "thaumictinkerer:focus_ender_chest"
+  },
+  "research": {
+    "entry": "thaumictinkerer:focus_ender_chest"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.dark_quartz.title",
+  "parents": [],
+  "column": -2,
+  "row": 2,
+  "icons": [
+    "thaumictinkerer:dark_quartz"
+  ],
+  "note_aspects": [],
+  "complexity": 1,
+  "meta": [
+    "autounlock",
+    "round"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.dark_quartz.text",
+      "recipes": [
+        "thaumictinkerer:dark_quartz"
+      ]
+    }
+  ]
+}

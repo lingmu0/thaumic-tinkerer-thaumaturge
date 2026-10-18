@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "DDD",
+    "T G",
+    "QQQ"
+  ],
+  "key": {
+    "D": {
+      "item": "thaumictinkerer:dark_quartz"
+    },
+    "T": {
+      "item": "thaumictinkerer:gaseous_tenebrae"
+    },
+    "G": {
+      "item": "thaumictinkerer:gaseous_light"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "vis": 4,
+  "result": {
+    "id": "thaumictinkerer:gas_remover"
+  },
+  "research": {
+    "entry": "thaumictinkerer:gas_remover"
+  }
+}

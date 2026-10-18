@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_shovel_gem.title",
+  "parents": [
+    "thaumictinkerer:ichor_tools"
+  ],
+  "column": 15,
+  "row": 15,
+  "icons": [
+    "thaumictinkerer:ichor_shovel_gem"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_shovel_gem.text",
+      "recipes": [
+        "thaumictinkerer:ichor_shovel_gem"
+      ]
+    }
+  ]
+}

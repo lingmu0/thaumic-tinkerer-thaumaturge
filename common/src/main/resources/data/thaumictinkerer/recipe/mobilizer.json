@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumaturge:levitator"
+  },
+  "components": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "thaumaturge:stone_ancient_tile"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 15
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:mobilizer"
+  },
+  "research": {
+    "entry": "thaumictinkerer:mobilizer"
+  }
+}

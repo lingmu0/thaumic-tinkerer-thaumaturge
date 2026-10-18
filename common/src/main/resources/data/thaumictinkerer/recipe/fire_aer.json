@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumictinkerer:bright_nitor"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 5
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:fire_aer"
+  },
+  "research": {
+    "entry": "thaumictinkerer:fire_aer"
+  }
+}

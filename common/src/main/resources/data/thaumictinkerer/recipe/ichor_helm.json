@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumictinkerer:ichor_cloth"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    }
+  ],
+  "vis": 75,
+  "result": {
+    "id": "thaumictinkerer:ichor_helm",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:ichorcloth_armor"
+  }
+}

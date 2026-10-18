@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "thaumictinkerer:repairer",
+    "thaumictinkerer:funnel",
+    "thaumictinkerer:magnet",
+    "thaumictinkerer:mob_magnet",
+    "thaumictinkerer:enchanter",
+    "thaumictinkerer:transvector_interface",
+    "thaumictinkerer:transvector_dislocator",
+    "thaumictinkerer:remote_placer",
+    "thaumictinkerer:golem_connector",
+    "thaumictinkerer:animation_tablet",
+    "thaumictinkerer:aspect_analyzer",
+    "thaumictinkerer:platform",
+    "thaumictinkerer:camo",
+    "thaumictinkerer:mobilizer",
+    "thaumictinkerer:mobilizer_relay",
+    "thaumictinkerer:summon_tablet"
+  ]
+}

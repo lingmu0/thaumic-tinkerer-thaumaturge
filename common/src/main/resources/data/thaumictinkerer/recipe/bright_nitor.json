@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumaturge:nitor_yellow"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 10
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:bright_nitor"
+  },
+  "research": {
+    "entry": "thaumictinkerer:bright_nitor"
+  }
+}

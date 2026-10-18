@@ -1,0 +1,78 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:ichor_boots"
+  },
+  "components": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturge:thaumonomicon"
+    },
+    {
+      "item": "thaumaturge:focus_3"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "thaumaturge:arcane_bore"
+    },
+    {
+      "item": "thaumaturge:lamp_growth"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:lead"
+    }
+  ],
+  "instability": 13,
+  "research": {
+    "entry": "thaumictinkerer:ichor_boots_gem"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichor_boots_gem",
+    "count": 1
+  }
+}

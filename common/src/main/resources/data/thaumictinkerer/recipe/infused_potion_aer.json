@@ -1,0 +1,22 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumictinkerer:infused_grain_aer"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 5
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:infused_potion_aer"
+  },
+  "research": {
+    "entry": "thaumictinkerer:infused_potion_aer"
+  }
+}

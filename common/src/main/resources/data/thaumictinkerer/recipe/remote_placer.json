@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "ses",
+    "sds",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "thaumaturge:stone_arcane"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    },
+    "d": {
+      "item": "minecraft:dispenser"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 45,
+  "result": {
+    "id": "thaumictinkerer:remote_placer",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:remote_placer"
+  }
+}

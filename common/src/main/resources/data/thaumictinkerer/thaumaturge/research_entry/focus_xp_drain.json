@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_xp_drain.title",
+  "parents": [
+    "thaumictinkerer:ichorcloth_rod"
+  ],
+  "column": 12,
+  "row": 3,
+  "icons": [
+    "thaumictinkerer:focus_xp_drain"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_xp_drain.text",
+      "recipes": [
+        "thaumictinkerer:focus_xp_drain"
+      ]
+    }
+  ]
+}

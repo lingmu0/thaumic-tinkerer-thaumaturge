@@ -1,0 +1,70 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:ichor_axe"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:ichorium"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturge:elemental_axe"
+    },
+    {
+      "item": "thaumaturge:focus_2"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "thaumaturge:cluster_cinnabar"
+    },
+    {
+      "item": "thaumaturge:cluster_iron"
+    },
+    {
+      "item": "thaumaturge:cluster_gold"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumaturge:focus_2"
+    },
+    {
+      "item": "thaumaturge:elemental_axe"
+    },
+    {
+      "item": "thaumictinkerer:ichor_cloth"
+    }
+  ],
+  "instability": 15,
+  "research": {
+    "entry": "thaumictinkerer:ichor_axe_gem"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichor_axe_gem",
+    "count": 1
+  }
+}

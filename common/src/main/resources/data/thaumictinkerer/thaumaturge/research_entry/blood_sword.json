@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.blood_sword.title",
+  "parents": [
+    "thaumictinkerer:cleansing_talisman"
+  ],
+  "column": -4,
+  "row": 6,
+  "icons": [
+    "thaumictinkerer:blood_sword"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.blood_sword.text",
+      "recipes": [
+        "thaumictinkerer:blood_sword"
+      ]
+    }
+  ]
+}

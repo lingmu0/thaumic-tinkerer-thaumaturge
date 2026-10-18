@@ -1,0 +1,52 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 65
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:block_talisman"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "minecraft:dropper"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    }
+  ],
+  "instability": 12,
+  "research": {
+    "entry": "thaumictinkerer:placement_mirror"
+  },
+  "result": {
+    "id": "thaumictinkerer:placement_mirror",
+    "count": 1
+  }
+}

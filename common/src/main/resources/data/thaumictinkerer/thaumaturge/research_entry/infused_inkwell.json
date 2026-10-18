@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.infused_inkwell.title",
+  "parents": [
+    "thaumaturge:base_infusion"
+  ],
+  "column": 1,
+  "row": -1,
+  "icons": [
+    "thaumictinkerer:infused_inkwell"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.infused_inkwell.text",
+      "recipes": [
+        "thaumictinkerer:infused_inkwell",
+        "thaumictinkerer:infused_inkwell_refill"
+      ]
+    }
+  ]
+}

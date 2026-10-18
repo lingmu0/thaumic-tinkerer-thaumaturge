@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumictinkerer:item/ichor_pick_gem_mode_1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumictinkerer:item/ichor_pick_gem_mode_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "thaumictinkerer:item/ichor_pick_gem"
+    }
+  }
+}

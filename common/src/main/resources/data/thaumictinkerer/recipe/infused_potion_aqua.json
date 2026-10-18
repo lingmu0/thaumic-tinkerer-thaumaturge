@@ -1,0 +1,22 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumictinkerer:infused_grain_aqua"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 5
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:infused_potion_aqua"
+  },
+  "research": {
+    "entry": "thaumictinkerer:infused_potion_aqua"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.soul_mould.title",
+  "parents": [
+    "thaumictinkerer:mob_magnet"
+  ],
+  "column": -2,
+  "row": 0,
+  "icons": [
+    "thaumictinkerer:soul_mould"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.soul_mould.text",
+      "recipes": [
+        "thaumictinkerer:soul_mould"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.infused_potion_ignis.title",
+  "parents": [
+    "thaumictinkerer:fire_aer",
+    "thaumictinkerer:fire_ignis",
+    "thaumictinkerer:fire_terra",
+    "thaumictinkerer:fire_aqua",
+    "thaumictinkerer:fire_ordo",
+    "thaumictinkerer:fire_perditio"
+  ],
+  "column": 8,
+  "row": -5,
+  "icons": [
+    "thaumictinkerer:infused_potion_ignis"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 5
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.infused_potion_ignis.text",
+      "recipes": [
+        "thaumictinkerer:infused_potion_ignis"
+      ]
+    }
+  ]
+}

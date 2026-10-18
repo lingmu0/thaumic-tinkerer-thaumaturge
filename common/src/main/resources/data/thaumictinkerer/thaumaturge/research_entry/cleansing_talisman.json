@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.cleansing_talisman.title",
+  "parents": [
+    "thaumictinkerer:dark_quartz"
+  ],
+  "column": -3,
+  "row": 4,
+  "icons": [
+    "thaumictinkerer:cleansing_talisman"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.cleansing_talisman.text",
+      "recipes": [
+        "thaumictinkerer:cleansing_talisman"
+      ]
+    }
+  ]
+}

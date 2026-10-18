@@ -1,0 +1,43 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_tools.title",
+  "parents": [
+    "thaumictinkerer:ichorium",
+    "thaumictinkerer:ichorcloth_rod"
+  ],
+  "column": 13,
+  "row": 12,
+  "icons": [
+    "thaumictinkerer:ichor_pick"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_tools.text",
+      "recipes": [
+        "thaumictinkerer:ichor_pick",
+        "thaumictinkerer:ichor_shovel",
+        "thaumictinkerer:ichor_axe",
+        "thaumictinkerer:ichor_sword"
+      ]
+    }
+  ]
+}

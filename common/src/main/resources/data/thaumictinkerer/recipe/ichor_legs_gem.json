@@ -1,0 +1,82 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:ichor_legs"
+  },
+  "components": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturge:focus_3"
+    },
+    {
+      "item": "thaumaturge:thaumonomicon"
+    },
+    {
+      "item": "minecraft:golden_chestplate"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "thaumictinkerer:focus_smelt"
+    },
+    {
+      "item": "thaumictinkerer:bright_nitor"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "instability": 13,
+  "research": {
+    "entry": "thaumictinkerer:ichor_legs_gem"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichor_legs_gem",
+    "count": 1
+  }
+}

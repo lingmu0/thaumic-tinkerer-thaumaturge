@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "heal"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_heal.png",
+  "color": 16580822,
+  "complexity": 0,
+  "vis": 0.6,
+  "aspect": "thaumaturge:victus",
+  "research": {
+    "entry": "thaumictinkerer:focus_heal"
+  },
+  "max_per_spell": 1
+}

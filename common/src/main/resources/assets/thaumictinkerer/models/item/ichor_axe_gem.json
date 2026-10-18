@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "thaumictinkerer:item/ichor_axe_gem"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:custom_model_data": 1
+      },
+      "model": "thaumictinkerer:item/ichor_axe_gem_mode_1"
+    },
+    {
+      "predicate": {
+        "minecraft:custom_model_data": 2
+      },
+      "model": "thaumictinkerer:item/ichor_axe_gem_mode_2"
+    }
+  ]
+}

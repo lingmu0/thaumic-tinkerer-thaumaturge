@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumictinkerer:mob_aspect_metallum"
+    }
+  },
+  "result": {
+    "id": "thaumictinkerer:condensed_mob_aspect_metallum"
+  }
+}

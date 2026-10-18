@@ -1,0 +1,30 @@
+{
+  "description": {
+    "translate": "enchantment.thaumictinkerer.quick_draw"
+  },
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": [
+    "minecraft:punch",
+    "thaumictinkerer:auto_smelt",
+    "thaumictinkerer:disintegrate",
+    "thaumictinkerer:focused_strikes",
+    "thaumictinkerer:dispersed_strikes",
+    "thaumictinkerer:final_strike",
+    "thaumictinkerer:valiance"
+  ],
+  "effects": {}
+}

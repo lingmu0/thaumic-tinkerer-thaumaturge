@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.focused_strikes.title",
+  "parents": [
+    "thaumictinkerer:enchant/vampirism"
+  ],
+  "column": 2,
+  "row": 7,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/focused_strikes.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.focused_strikes.text"
+    }
+  ]
+}

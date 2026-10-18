@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.xp_talisman.title",
+  "parents": [
+    "thaumaturge:jar_brain",
+    "thaumictinkerer:spell_cloth"
+  ],
+  "column": 4,
+  "row": -1,
+  "icons": [
+    "thaumictinkerer:xp_talisman"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.xp_talisman.text",
+      "recipes": [
+        "thaumictinkerer:xp_talisman"
+      ]
+    }
+  ]
+}

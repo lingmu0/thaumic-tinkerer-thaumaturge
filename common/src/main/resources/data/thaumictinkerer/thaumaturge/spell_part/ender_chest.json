@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "ender_chest"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_ender_chest.png",
+  "color": 1253923,
+  "complexity": 0,
+  "vis": 2,
+  "aspect": "thaumaturge:alienis",
+  "research": {
+    "entry": "thaumictinkerer:focus_ender_chest"
+  },
+  "max_per_spell": 1
+}

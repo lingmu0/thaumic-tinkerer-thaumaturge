@@ -1,0 +1,44 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "WFW",
+    "sIs",
+    "WFW"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumaturge:log_greatwood"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    },
+    "s": {
+      "item": "minecraft:ender_pearl"
+    },
+    "I": {
+      "item": "thaumaturge:golem_bell"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 40,
+  "result": {
+    "id": "thaumictinkerer:golem_connector",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:golem_connector"
+  }
+}

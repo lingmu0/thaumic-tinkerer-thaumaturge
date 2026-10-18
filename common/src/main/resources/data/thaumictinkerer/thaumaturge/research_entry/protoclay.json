@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.protoclay.title",
+  "parents": [
+    "thaumictinkerer:ichor_pick_gem",
+    "thaumictinkerer:ichor_shovel_gem"
+  ],
+  "column": 12,
+  "row": 17,
+  "icons": [
+    "thaumictinkerer:protoclay"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.protoclay.text",
+      "recipes": [
+        "thaumictinkerer:protoclay"
+      ]
+    }
+  ]
+}

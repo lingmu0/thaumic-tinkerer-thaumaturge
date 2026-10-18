@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "STS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "T": {
+      "item": "thaumaturge:ingot_thaumium"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 2,
+  "result": {
+    "id": "thaumictinkerer:funnel",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:funnel"
+  }
+}

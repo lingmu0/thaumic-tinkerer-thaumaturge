@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.aspect_analyzer.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": -7,
+  "row": -2,
+  "icons": [
+    "thaumictinkerer:aspect_analyzer"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.aspect_analyzer.text",
+      "recipes": [
+        "thaumictinkerer:aspect_analyzer"
+      ]
+    }
+  ]
+}

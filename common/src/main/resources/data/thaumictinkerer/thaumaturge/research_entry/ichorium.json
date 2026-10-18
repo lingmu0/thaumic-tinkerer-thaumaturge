@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichorium.title",
+  "parents": [
+    "thaumictinkerer:ichor_cloth"
+  ],
+  "column": 11,
+  "row": 9,
+  "icons": [
+    "thaumictinkerer:ichorium"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichorium.text",
+      "recipes": [
+        "thaumictinkerer:ichorium"
+      ]
+    }
+  ]
+}

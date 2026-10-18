@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "deflect"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_deflect.png",
+  "color": 16777215,
+  "complexity": 0,
+  "vis": 2.4,
+  "aspect": "thaumaturge:ordo",
+  "research": {
+    "entry": "thaumictinkerer:focus_deflect"
+  },
+  "max_per_spell": 1
+}

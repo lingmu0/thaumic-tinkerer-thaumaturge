@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:sky_pearl"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumaturge:mirror"
+    },
+    {
+      "item": "thaumaturge:focus_2"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 100
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    }
+  ],
+  "instability": 10,
+  "result": {
+    "id": "thaumictinkerer:focus_recall"
+  },
+  "research": {
+    "entry": "thaumictinkerer:focus_recall"
+  }
+}

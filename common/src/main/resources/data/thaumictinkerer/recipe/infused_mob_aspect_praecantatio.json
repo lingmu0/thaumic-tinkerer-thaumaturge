@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_praecantatio"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_praecantatio"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

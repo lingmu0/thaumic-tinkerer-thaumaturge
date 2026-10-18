@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumictinkerer:dark_quartz_slab"
+    }
+  },
+  "result": {
+    "id": "thaumictinkerer:dark_quartz_chiseled",
+    "count": 1
+  }
+}

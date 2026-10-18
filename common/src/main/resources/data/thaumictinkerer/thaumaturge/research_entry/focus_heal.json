@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.focus_heal.title",
+  "parents": [
+    "thaumictinkerer:focus_deflect"
+  ],
+  "column": -6,
+  "row": -4,
+  "icons": [
+    "thaumictinkerer:focus_heal"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.focus_heal.text",
+      "recipes": [
+        "thaumictinkerer:focus_heal"
+      ]
+    }
+  ]
+}

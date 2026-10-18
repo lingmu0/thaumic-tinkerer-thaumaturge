@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_sword_gem.title",
+  "parents": [
+    "thaumictinkerer:ichor_tools"
+  ],
+  "column": 16,
+  "row": 12,
+  "icons": [
+    "thaumictinkerer:ichor_sword_gem"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_sword_gem.text",
+      "recipes": [
+        "thaumictinkerer:ichor_sword_gem"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "ICI",
+    " M ",
+    "ICI"
+  ],
+  "key": {
+    "M": {
+      "item": "thaumictinkerer:ichorium"
+    },
+    "I": {
+      "item": "thaumictinkerer:ichor"
+    },
+    "C": {
+      "item": "thaumaturge:wand_cap_thaumium"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 100,
+  "result": {
+    "id": "thaumictinkerer:ichor_cap",
+    "count": 2
+  },
+  "research": {
+    "entry": "thaumictinkerer:ichor_cap"
+  }
+}

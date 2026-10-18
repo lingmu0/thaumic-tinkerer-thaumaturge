@@ -1,0 +1,41 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.warp_gate.title",
+  "parents": [
+    "thaumictinkerer:ichor_chest_gem",
+    "thaumictinkerer:ichor_boots_gem"
+  ],
+  "column": 19,
+  "row": 6,
+  "icons": [
+    "thaumictinkerer:warp_gate"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.warp_gate.text",
+      "recipes": [
+        "thaumictinkerer:warp_gate",
+        "thaumictinkerer:sky_pearl"
+      ]
+    }
+  ]
+}

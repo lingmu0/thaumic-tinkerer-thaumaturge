@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.disintegrate.title",
+  "parents": [
+    "thaumictinkerer:osmotic_enchanter"
+  ],
+  "column": 6,
+  "row": 6,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/disintegrate.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.disintegrate.text"
+    }
+  ]
+}

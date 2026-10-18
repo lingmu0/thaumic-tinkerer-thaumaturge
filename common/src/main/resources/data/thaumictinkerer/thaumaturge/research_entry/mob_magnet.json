@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.mob_magnet.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": -5,
+  "row": -6,
+  "icons": [
+    "thaumictinkerer:magnet"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.mob_magnet.text",
+      "recipes": [
+        "thaumictinkerer:magnet",
+        "thaumictinkerer:mob_magnet"
+      ]
+    }
+  ]
+}

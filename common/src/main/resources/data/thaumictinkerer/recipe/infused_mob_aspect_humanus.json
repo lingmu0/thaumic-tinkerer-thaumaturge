@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_humanus"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_humanus"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

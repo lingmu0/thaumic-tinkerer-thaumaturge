@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "CCC",
+    "III",
+    "DDD"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumaturge:fabric"
+    },
+    "I": {
+      "item": "thaumictinkerer:ichor"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 125,
+  "result": {
+    "id": "thaumictinkerer:ichor_cloth",
+    "count": 3
+  },
+  "research": {
+    "entry": "thaumictinkerer:ichor_cloth"
+  }
+}

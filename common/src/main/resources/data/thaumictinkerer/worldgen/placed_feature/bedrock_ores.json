@@ -1,0 +1,8 @@
+{
+  "feature": "thaumictinkerer:bedrock_ores",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

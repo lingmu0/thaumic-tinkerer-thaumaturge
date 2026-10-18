@@ -1,0 +1,40 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.block_talisman.title",
+  "parents": [
+    "thaumictinkerer:ichor_pick_gem",
+    "thaumictinkerer:ichor_shovel_gem"
+  ],
+  "column": 14,
+  "row": 17,
+  "icons": [
+    "thaumictinkerer:block_talisman"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.block_talisman.text",
+      "recipes": [
+        "thaumictinkerer:block_talisman"
+      ]
+    }
+  ]
+}

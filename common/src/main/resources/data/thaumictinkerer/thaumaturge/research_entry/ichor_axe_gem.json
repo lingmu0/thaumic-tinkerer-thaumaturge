@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_axe_gem.title",
+  "parents": [
+    "thaumictinkerer:ichor_tools"
+  ],
+  "column": 16,
+  "row": 14,
+  "icons": [
+    "thaumictinkerer:ichor_axe_gem"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_axe_gem.text",
+      "recipes": [
+        "thaumictinkerer:ichor_axe_gem"
+      ]
+    }
+  ]
+}

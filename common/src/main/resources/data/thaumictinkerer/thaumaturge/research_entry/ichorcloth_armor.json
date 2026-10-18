@@ -1,0 +1,38 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichorcloth_armor.title",
+  "parents": [
+    "thaumictinkerer:ichor_cloth"
+  ],
+  "column": 17,
+  "row": 5,
+  "icons": [
+    "thaumictinkerer:ichor_helm"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichorcloth_armor.text",
+      "recipes": [
+        "thaumictinkerer:ichor_helm",
+        "thaumictinkerer:ichor_chest",
+        "thaumictinkerer:ichor_legs",
+        "thaumictinkerer:ichor_boots"
+      ]
+    }
+  ]
+}

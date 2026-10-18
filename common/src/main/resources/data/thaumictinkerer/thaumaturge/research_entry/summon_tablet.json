@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.summon_tablet.title",
+  "parents": [
+    "thaumictinkerer:mob_magnet"
+  ],
+  "column": -9,
+  "row": 0,
+  "icons": [
+    "thaumictinkerer:summon_tablet"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.summon_tablet.text",
+      "recipes": [
+        "thaumictinkerer:summon_tablet"
+      ]
+    }
+  ]
+}

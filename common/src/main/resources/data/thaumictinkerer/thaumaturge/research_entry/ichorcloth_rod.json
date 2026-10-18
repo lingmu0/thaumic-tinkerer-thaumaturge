@@ -1,0 +1,40 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichorcloth_rod.title",
+  "parents": [
+    "thaumictinkerer:ichor_cloth",
+    "thaumictinkerer:ichor_cap"
+  ],
+  "column": 14,
+  "row": 2,
+  "icons": [
+    "thaumictinkerer:ichorcloth_rod"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichorcloth_rod.text",
+      "recipes": [
+        "thaumictinkerer:ichorcloth_rod"
+      ]
+    }
+  ]
+}

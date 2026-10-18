@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+  },
+  "components": [
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    },
+    {
+      "item": "thaumictinkerer:condensed_mob_aspect_volatus"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 10
+    }
+  ],
+  "instability": 4,
+  "result": {
+    "id": "thaumictinkerer:infused_mob_aspect_volatus"
+  },
+  "research": {
+    "entry": "thaumictinkerer:blood_sword"
+  }
+}

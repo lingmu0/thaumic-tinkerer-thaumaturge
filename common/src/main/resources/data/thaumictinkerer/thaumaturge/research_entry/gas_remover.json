@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.gas_remover.title",
+  "parents": [
+    "thaumictinkerer:gaseous_tenebrae"
+  ],
+  "column": -2,
+  "row": -7,
+  "icons": [
+    "thaumictinkerer:gas_remover"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.gas_remover.text",
+      "recipes": [
+        "thaumictinkerer:gas_remover"
+      ]
+    }
+  ]
+}

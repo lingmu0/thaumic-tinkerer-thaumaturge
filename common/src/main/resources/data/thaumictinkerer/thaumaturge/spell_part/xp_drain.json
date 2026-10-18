@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "xp_drain"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_xp_drain.png",
+  "color": 16777215,
+  "complexity": 0,
+  "vis": 0,
+  "aspect": "thaumaturge:cognitio",
+  "research": {
+    "entry": "thaumictinkerer:focus_xp_drain"
+  },
+  "max_per_spell": 1
+}

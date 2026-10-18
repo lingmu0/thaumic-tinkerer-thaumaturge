@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "shadowbeam"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_shadowbeam.png",
+  "color": 4915283,
+  "complexity": 0,
+  "vis": 13,
+  "aspect": "thaumaturge:tenebrae",
+  "research": {
+    "entry": "thaumictinkerer:focus_shadowbeam"
+  },
+  "max_per_spell": 1
+}

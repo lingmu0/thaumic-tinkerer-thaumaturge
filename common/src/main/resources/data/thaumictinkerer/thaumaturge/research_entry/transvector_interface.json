@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.transvector_interface.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": -9,
+  "row": -4,
+  "icons": [
+    "thaumictinkerer:transvector_interface"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.transvector_interface.text",
+      "recipes": [
+        "thaumictinkerer:transvector_interface",
+        "thaumictinkerer:connector"
+      ]
+    }
+  ]
+}

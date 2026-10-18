@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "flight"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_flight.png",
+  "color": 10416895,
+  "complexity": 0,
+  "vis": 0.15,
+  "aspect": "thaumaturge:aer",
+  "research": {
+    "entry": "thaumictinkerer:focus_flight"
+  },
+  "max_per_spell": 1
+}

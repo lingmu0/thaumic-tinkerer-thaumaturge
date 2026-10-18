@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.quick_draw.title",
+  "parents": [
+    "thaumictinkerer:osmotic_enchanter"
+  ],
+  "column": 4,
+  "row": 6,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/quick_draw.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.quick_draw.text"
+    }
+  ]
+}

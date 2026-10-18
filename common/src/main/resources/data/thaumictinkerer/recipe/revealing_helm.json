@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "GH"
+  ],
+  "key": {
+    "G": {
+      "item": "thaumaturge:goggles_revealing"
+    },
+    "H": {
+      "item": "thaumaturge:thaumium_helm"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 30,
+  "result": {
+    "id": "thaumictinkerer:revealing_helm"
+  },
+  "research": {
+    "entry": "thaumictinkerer:revealing_helm"
+  }
+}

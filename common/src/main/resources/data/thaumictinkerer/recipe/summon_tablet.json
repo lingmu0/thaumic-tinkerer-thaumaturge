@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    "WWW",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumaturge:stone_ancient_tile"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "vis": 100,
+  "result": {
+    "id": "thaumictinkerer:summon_tablet",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:summon_tablet"
+  }
+}

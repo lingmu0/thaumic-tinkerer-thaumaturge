@@ -1,0 +1,31 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.revealing_helm.title",
+  "parents": [
+    "thaumaturge:unlock_artifice"
+  ],
+  "column": 0,
+  "row": 0,
+  "icons": [
+    "thaumictinkerer:revealing_helm"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.revealing_helm.text",
+      "recipes": [
+        "thaumictinkerer:revealing_helm"
+      ]
+    }
+  ]
+}

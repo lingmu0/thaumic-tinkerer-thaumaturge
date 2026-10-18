@@ -1,0 +1,35 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_cloth.title",
+  "parents": [
+    "thaumictinkerer:ichor"
+  ],
+  "column": 11,
+  "row": 7,
+  "icons": [
+    "thaumictinkerer:ichor_cloth"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_cloth.text",
+      "recipes": [
+        "thaumictinkerer:ichor_cloth"
+      ]
+    }
+  ]
+}

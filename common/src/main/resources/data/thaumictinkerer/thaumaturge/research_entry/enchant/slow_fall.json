@@ -1,0 +1,32 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.slow_fall.title",
+  "parents": [
+    "thaumictinkerer:osmotic_enchanter"
+  ],
+  "column": 7,
+  "row": 3,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/slow_fall.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.slow_fall.text"
+    }
+  ]
+}

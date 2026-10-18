@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "pattern": [
+    " I ",
+    " I ",
+    " R "
+  ],
+  "key": {
+    "I": {
+      "item": "thaumictinkerer:ichorium"
+    },
+    "R": {
+      "item": "thaumaturge:wand_rod_silverwood"
+    }
+  },
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "vis": 75,
+  "result": {
+    "id": "thaumictinkerer:ichor_sword",
+    "count": 1
+  },
+  "research": {
+    "entry": "thaumictinkerer:ichor_tools"
+  }
+}

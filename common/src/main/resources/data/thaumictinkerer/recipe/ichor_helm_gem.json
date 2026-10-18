@@ -1,0 +1,82 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumictinkerer:ichor_helm"
+  },
+  "components": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturge:thaumonomicon"
+    },
+    {
+      "item": "thaumaturge:focus_3"
+    },
+    {
+      "item": "minecraft:golden_helmet"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "thaumaturge:goggles_revealing"
+    },
+    {
+      "item": "thaumictinkerer:cleansing_talisman"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:cake"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    }
+  ],
+  "instability": 13,
+  "research": {
+    "entry": "thaumictinkerer:ichor_helm_gem"
+  },
+  "result": {
+    "id": "thaumictinkerer:ichor_helm_gem",
+    "count": 1
+  }
+}

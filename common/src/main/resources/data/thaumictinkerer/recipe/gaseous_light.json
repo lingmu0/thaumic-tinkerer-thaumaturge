@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:crucible",
+  "catalyst": {
+    "item": "thaumaturge:phial"
+  },
+  "aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 8
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:gaseous_light"
+  },
+  "research": {
+    "entry": "thaumictinkerer:gaseous_light"
+  }
+}

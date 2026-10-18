@@ -1,0 +1,36 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.enchant.pounce.title",
+  "parents": [
+    "thaumictinkerer:enchant/ascent_boost"
+  ],
+  "column": 7,
+  "row": 0,
+  "icons": [
+    "thaumictinkerer:textures/research/enchant/pounce.png"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.enchant.pounce.text"
+    }
+  ]
+}

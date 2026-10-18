@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "PTP",
+    " P "
+  ],
+  "key": {
+    "S": {
+      "item": "thaumaturge:scribing_tools"
+    },
+    "T": {
+      "item": "thaumaturge:thaumonomicon"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "thaumictinkerer:share_book"
+  }
+}

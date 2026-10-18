@@ -1,0 +1,15 @@
+{
+  "behavior": {
+    "type": "thaumictinkerer:tinkering",
+    "action": "smelt"
+  },
+  "icon": "thaumictinkerer:textures/item/focus_smelt.png",
+  "color": 16711680,
+  "complexity": 0,
+  "vis": 0.57,
+  "aspect": "thaumaturge:ignis",
+  "research": {
+    "entry": "thaumictinkerer:focus_smelt"
+  },
+  "max_per_spell": 1
+}

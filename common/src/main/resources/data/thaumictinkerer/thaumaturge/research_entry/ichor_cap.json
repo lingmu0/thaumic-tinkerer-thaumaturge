@@ -1,0 +1,39 @@
+{
+  "category": "thaumictinkerer:tinkering",
+  "name": "research.thaumictinkerer.ichor_cap.title",
+  "parents": [
+    "thaumictinkerer:ichorium"
+  ],
+  "column": 11,
+  "row": 11,
+  "icons": [
+    "thaumictinkerer:ichor_cap"
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    }
+  ],
+  "complexity": 3,
+  "stages": [
+    {
+      "text": "research.thaumictinkerer.ichor_cap.text",
+      "recipes": [
+        "thaumictinkerer:ichor_cap"
+      ]
+    }
+  ]
+}
