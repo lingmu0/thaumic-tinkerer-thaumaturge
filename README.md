@@ -1,8 +1,8 @@
 # 神秘工匠：Thaumaturge 非官方移植
 
-**Ichorworks: Thaumic Tinkerer** is an independent, non-commercial alpha adaptation of the original Thaumic Tinkerer 1.7.10, including KAMI, for Thaumaturge and NeoForge. It is not affiliated with or endorsed by the original authors. See [the public project description](docs/CURSEFORGE.md) for requirements, credits and current limitations.
+**Ichorworks: Thaumic Tinkerer** is an independent, non-commercial beta adaptation of the original Thaumic Tinkerer 1.7.10, including KAMI, for Thaumaturge and NeoForge. It is not affiliated with or endorsed by the original authors. See [the public project description](docs/CURSEFORGE.md) for requirements, credits and current limitations.
 
-以原版 **Thaumic Tinkerer 1.7.10（含 KAMI）** 为内容基准，分别适配 Minecraft 1.21.1 / 26.1.2 NeoForge。模组 ID：`thaumictinkerer`。当前为 `0.1.2-alpha` 开发版。
+以原版 **Thaumic Tinkerer 1.7.10（含 KAMI）** 为内容基准，分别适配 Minecraft 1.21.1 / 26.1.2 NeoForge。模组 ID：`thaumictinkerer`。当前为 `0.1.2-beta` 开发版。
 
 `0.1.1-dev` 修复烟熏石英缺失纹理、机器模型 UV、26.1.2 方块物品及六种元素火瓶的名称。更新时移走旧版 jar，只保留当前游戏版本的一份新 jar，然后重启游戏。详见 [更新记录](docs/CHANGELOG.md)。
 

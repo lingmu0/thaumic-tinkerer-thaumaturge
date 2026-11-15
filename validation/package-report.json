@@ -1,20 +1,20 @@
 [
   {
     "version": "1.21.1",
-    "modVersion": "0.1.2-alpha",
+    "modVersion": "0.1.2-beta",
     "javaMajor": 65,
     "classes": 72,
     "json": 528,
-    "jarSha256": "c182d77a1a5dde71658a93810677dda5499321b399b0ce9904b79d848b8c3734",
+    "jarSha256": "eee0925a9d42a3794f2a224145546931b4b2c895267a5ee8f6b66ad144529f8f",
     "status": "passed"
   },
   {
     "version": "26.1.2",
-    "modVersion": "0.1.2-alpha",
+    "modVersion": "0.1.2-beta",
     "javaMajor": 69,
     "classes": 74,
     "json": 682,
-    "jarSha256": "596de5f7e1806653a19df1fa7240cc0ab442446773feaed45aa35071473a4ec7",
+    "jarSha256": "b333b518357cf027193788a4aac5526d21e2677d9ce7f448a0bfd0218965bf7e",
     "status": "passed"
   }
 ]

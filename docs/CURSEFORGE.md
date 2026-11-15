@@ -1,6 +1,6 @@
 # Ichorworks: Thaumic Tinkerer
 
-**Ichorworks is an independent, non-commercial alpha port of Thaumic Tinkerer 1.7.10, including KAMI, for Thaumaturge.** It is not an official release and is not endorsed by the original authors. This project is separate from other unofficial ports.
+**Ichorworks is an independent, non-commercial beta port of Thaumic Tinkerer 1.7.10, including KAMI, for Thaumaturge.** It is not an official release and is not endorsed by the original authors. This project is separate from other unofficial ports.
 
 Rediscover Thaumic Tinker's machines, wands and late-game Ichor equipment alongside Thaumaturge's research and magic systems:
 
@@ -19,7 +19,7 @@ Install the file matching your Minecraft version and its separately distributed 
 - [Thaumaturge 1.1.0](https://www.curseforge.com/minecraft/mc-mods/thaumaturge/files/all), plus its required dependencies.
 - [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios).
 
-The current build is **alpha**: it has been compiled and checked offline, but has not been verified in a running client or dedicated server. Back up worlds before testing. Older Thaumaturge versions and later releases have not been verified with this build.
+The current build is **beta**: it has been compiled and checked offline, but has not been verified in a running client or dedicated server. Back up worlds before testing. Older Thaumaturge versions and later releases have not been verified with this build.
 
 ## Credits and licence
 
