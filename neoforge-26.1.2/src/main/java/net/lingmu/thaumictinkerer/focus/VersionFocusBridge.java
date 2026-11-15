@@ -1,6 +1,7 @@
 package net.lingmu.thaumictinkerer.focus;
 
 import com.leclowndu93150.thaumaturge.api.aspect.TTAspects;
+import com.leclowndu93150.thaumaturge.api.aspect.IAspect;
 import com.leclowndu93150.thaumaturge.api.capability.KnowledgeAccess;
 import com.leclowndu93150.thaumaturge.api.spell.cast.CastContext;
 import com.leclowndu93150.thaumaturge.content.research.ResearchManager;
@@ -15,6 +16,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtOps;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -35,6 +37,9 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
 final class VersionFocusBridge {
+    static int wandCapacity(ItemStack wand) { return WandVisHelper.capacityOf(wand); }
+    static int wandCharge(ItemStack wand,ResourceKey<IAspect> aspect) { return WandVisHelper.storedIn(wand,aspect); }
+    static void addWandCharge(ItemStack wand,ResourceKey<IAspect> aspect,int centivis) { WandVisHelper.topUpCentivis(wand,aspect,centivis,true); }
     private record SmeltProgress(BlockPos pos,long start,long last) {}
     private static final Map<Player,SmeltProgress> SMELTING=new java.util.WeakHashMap<>();
     static ItemStack wand(Player player) {
@@ -110,7 +115,7 @@ final class VersionFocusBridge {
             if(NeoForge.EVENT_BUS.post(new net.neoforged.neoforge.event.level.block.BreakBlockEvent(ctx.level(),pos,state,player)).isCanceled())return;
             int entropy=tile instanceof SpawnerBlockEntity?10000:tile!=null?2500:500;
             int earth=tile instanceof SpawnerBlockEntity?5000:tile!=null?500:100;
-            if(!player.getAbilities().instabuild&&!WandVisHelper.consumeAllVis(caster,player,Map.of(TTAspects.PERDITIO,entropy,TTAspects.ORDO,entropy,TTAspects.TERRA,earth),true,false))return;
+            if(!player.getAbilities().instabuild&&!WandVisHelper.payCosts(caster,player,Map.of(TTAspects.PERDITIO,entropy,TTAspects.ORDO,entropy,TTAspects.TERRA,earth),true,false))return;
             var encoded=BlockState.CODEC.encodeStart(NbtOps.INSTANCE,state).result();if(encoded.isEmpty())return;
             data.put("tt_displaced_state",encoded.get());
             if(tile!=null)data.put("tt_displaced_tile",tile.saveWithFullMetadata(ctx.registries()));

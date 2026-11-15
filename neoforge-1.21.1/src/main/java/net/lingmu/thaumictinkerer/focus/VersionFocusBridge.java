@@ -1,6 +1,7 @@
 package net.lingmu.thaumictinkerer.focus;
 
 import com.leclowndu93150.thaumaturge.api.aspect.TTAspects;
+import com.leclowndu93150.thaumaturge.api.aspect.IAspect;
 import com.leclowndu93150.thaumaturge.api.capability.PlayerResearchAccess;
 import com.leclowndu93150.thaumaturge.api.spell.cast.CastContext;
 import com.leclowndu93150.thaumaturge.content.research.ResearchManager;
@@ -15,6 +16,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtOps;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -35,6 +37,9 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
 final class VersionFocusBridge {
+    static int wandCapacity(ItemStack wand) { return WandVisHelper.getMaxVis(wand); }
+    static int wandCharge(ItemStack wand,ResourceKey<IAspect> aspect) { return WandVisHelper.getVis(wand,aspect); }
+    static void addWandCharge(ItemStack wand,ResourceKey<IAspect> aspect,int centivis) { WandVisHelper.addRealVis(wand,aspect,centivis,true); }
     private record SmeltProgress(BlockPos pos,long start,long last) {}
     private static final Map<Player,SmeltProgress> SMELTING=new java.util.WeakHashMap<>();
     static ItemStack wand(Player player) {

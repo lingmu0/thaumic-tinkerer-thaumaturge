@@ -5,7 +5,6 @@ import com.leclowndu93150.thaumaturge.api.spell.behavior.SpellBehavior;
 import com.leclowndu93150.thaumaturge.api.spell.behavior.SpellBehaviorType;
 import com.leclowndu93150.thaumaturge.api.spell.cast.CastContext;
 import com.leclowndu93150.thaumaturge.api.spell.cast.SpellTarget;
-import com.leclowndu93150.thaumaturge.content.wands.WandVisHelper;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import java.util.HashSet;
@@ -77,13 +76,13 @@ public record TinkerEffect(String action) implements SpellBehavior {
     private static void xpDrain(ServerPlayer player) {
         ItemStack wand=VersionFocusBridge.wand(player);
         if(wand.isEmpty())return;
-        int max=WandVisHelper.getMaxVis(wand);
+        int max=VersionFocusBridge.wandCapacity(wand);
         for(var aspect:TTAspects.PRIMALS) {
-            int room=max-WandVisHelper.getVis(wand,aspect);
+            int room=max-VersionFocusBridge.wandCharge(wand,aspect);
             if(room<=0)continue;
             if(player.totalExperience>=30) {
                 player.giveExperiencePoints(-30);
-                WandVisHelper.addRealVis(wand,aspect,Math.min(500,room),true);
+                VersionFocusBridge.addWandCharge(wand,aspect,Math.min(500,room));
             }
             return;
         }

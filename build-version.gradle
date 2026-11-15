@@ -9,9 +9,11 @@ java.withSourcesJar()
 
 repositories {
     mavenCentral()
-    maven { url = 'https://maven.leclowndu93150.dev/releases' }
     maven { url = 'https://maven.theillusivec4.top/' }
-    maven { url = 'https://cursemaven.com' }
+    maven {
+        url = 'https://cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
 }
 
 def modern = minecraft_version == '26.1.2'
@@ -51,14 +53,10 @@ dependencies {
     compileOnly "top.theillusivec4.curios:curios-neoforge:${modern ? '15.0.0+26.1.2' : '9.2.3+1.21.1'}"
     if (providers.gradleProperty('thaumaturge_jar').isPresent()) {
         compileOnly files(providers.gradleProperty('thaumaturge_jar').get())
-    } else if (modern) {
-        def releaseJar = file('../dev-libs/thaumaturge-26.1.2-1.0.2.jar')
-        if (releaseJar.exists()) compileOnly files(releaseJar)
-        else compileOnly 'curse.maven:thaumaturge-1628024:9095192'
     } else {
-        def localDependency = file('../../.thaumaturge-1.21.1-upstream/build/libs/thaumaturge-1.21.1-NeoForge-1.0.4.jar')
-        if (localDependency.exists()) compileOnly files(localDependency)
-        else throw new GradleException('Thaumaturge 1.21.1 is not published. Build its official 1.21.1 branch, then supply -Pthaumaturge_jar=<absolute jar path>. See README.md.')
+        def releaseJar = file("../dev-libs/thaumaturge-${minecraft_version}-NeoForge-${thaumaturge_version}.jar")
+        if (releaseJar.exists()) compileOnly files(releaseJar)
+        else compileOnly "curse.maven:thaumaturge-1628024:${thaumaturge_curse_file}"
     }
 }
 

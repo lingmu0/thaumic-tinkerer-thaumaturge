@@ -30,7 +30,7 @@ public final class VersionDevices {
             .map(id -> id.getPath().substring(5)).toList();
     }
     static boolean fireEnabled(ServerLevel level,BlockPos pos){return level.canSpreadFireAround(pos);}
-    static boolean payWand(ItemStack wand,Player player,Map<net.minecraft.resources.ResourceKey<com.leclowndu93150.thaumaturge.api.aspect.IAspect>,Integer> cost){return com.leclowndu93150.thaumaturge.content.wands.WandVisHelper.consumeAllVis(wand,player,cost,true,true);}
+    static boolean payWand(ItemStack wand,Player player,Map<net.minecraft.resources.ResourceKey<com.leclowndu93150.thaumaturge.api.aspect.IAspect>,Integer> cost){return com.leclowndu93150.thaumaturge.content.wands.WandVisHelper.payCosts(wand,player,cost,true,true);}
     static BlockEntityType<VersionMachine> type(Block[] blocks){return new BlockEntityType<>(VersionMachine::new,blocks);}
     static void capabilities(RegisterCapabilitiesEvent event){
         var type=DeviceContent.MACHINE.get();
