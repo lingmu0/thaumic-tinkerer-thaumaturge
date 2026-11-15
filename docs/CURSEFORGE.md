@@ -9,7 +9,7 @@ Rediscover Thaumic Tinker's machines, wands and late-game Ichor equipment alongs
 - Explore elemental fire, infused crops, soul aspects and custom enchantments.
 - Progress into KAMI's Ichor materials, armour, tools, gateway and bedrock mining dimension.
 
-The older user interfaces and some mechanics have been adapted to modern Minecraft. Several original visual effects and integrations remain incomplete; see [porting notes](PORTING.md) in the source repository.
+The older user interfaces and some mechanics have been adapted to modern Minecraft. Several original visual effects and integrations remain incomplete; see [porting notes](https://github.com/lingmu0/thaumic-tinkerer-thaumaturge/blob/main/docs/PORTING.md) in the source repository.
 
 ## Requirements
 
